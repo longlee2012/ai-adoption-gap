@@ -1,0 +1,530 @@
+dataset,column,code,official_label,plain_english,used_for
+isoc_eb_ai,freq,A,Annual,,
+isoc_eb_ai,size_emp,0_1,From 0 to 1 person employed,0 to 1 person employed,UK comparison
+isoc_eb_ai,size_emp,0-9,From 0 to 9 persons employed,"Micro firms, 0 to 9 people",UK comparison
+isoc_eb_ai,size_emp,2-9,From 2 to 9 persons employed,2 to 9 people,UK comparison
+isoc_eb_ai,size_emp,10-49,From 10 to 49 persons employed,SMALL firms,All
+isoc_eb_ai,size_emp,10-249,From 10 to 249 persons employed,Small and medium together (SMEs),Context
+isoc_eb_ai,size_emp,GE10,10 persons employed or more,All firms with 10 or more people (the total),Context
+isoc_eb_ai,size_emp,50-249,From 50 to 249 persons employed,MEDIUM firms,All
+isoc_eb_ai,size_emp,GE250,250 persons employed or more,"LARGE firms, 250 or more",All
+isoc_eb_ai,nace_r2,C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector",,
+isoc_eb_ai,indic_is,E_AI_TTM,Enterprises using AI technologies performing analysis of written language (text mining),Uses AI for text mining (analysing written text),Q4 technology
+isoc_eb_ai,indic_is,E_AI_TSR,Enterprises using AI technologies converting spoken language into machine-readable format (speech recognition),Uses speech recognition,Q4 technology
+isoc_eb_ai,indic_is,E_AI_TNLG,"Enterprises using AI technologies generating written or spoken language or programming codes (natural language generation, speech synthesis)","Uses AI to generate text, speech or code (e.g. chatbots)",Q4 technology
+isoc_eb_ai,indic_is,E_AI_TIR,"Enterprises using AI technologies identifying objects or persons based on images (image recognition, image processing)",Uses image recognition,Q4 technology
+isoc_eb_ai,indic_is,E_AI_TML,Enterprises using machine learning (e.g. deep learning) for data analysis,Uses machine learning for data analysis,Q4 technology
+isoc_eb_ai,indic_is,E_AI_TPA,Enterprises using AI technologies automating different workflows or assisting in decision making (AI based software robotic process automation),Uses AI to automate workflows or support decisions,Q4 technology
+isoc_eb_ai,indic_is,E_AI_TAR,"Enterprises using AI technologies enabling physical movement of machines via autonomous decisions based on observation of surroundings (autonomous robots, self-driving vehicles, autonomous drones)","Uses autonomous robots, vehicles or drones",Q4 technology
+isoc_eb_ai,indic_is,E_AI_TANY,"Enterprises using at least one of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses AT LEAST ONE AI technology (main adoption measure),"Q1, Q2"
+isoc_eb_ai,indic_is,E_AI_TX,"Enterprises don't use any of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses NO AI technology,Q1
+isoc_eb_ai,indic_is,E_AI_TGE2,"Enterprises using at least two of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses 2 or more AI technologies (depth of use),Q1 depth
+isoc_eb_ai,indic_is,E_AI_TGE3,"Enterprises using at least three of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses 3 or more AI technologies (depth of use),Q1 depth
+isoc_eb_ai,indic_is,E_AI_PMS,Enterprises using AI technologies for marketing or sales,AI for marketing or sales,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PPP,Enterprises using AI technologies for production processes,AI for production processes,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PBA,Enterprises using AI technologies for organisation of business administration processes,AI for business administration (older wording),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PME,Enterprises using AI technologies for management of enterprises,AI for management (older wording),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PLOG,Enterprises using AI technologies for logistics,AI for logistics,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PITS,Enterprises using AI technologies for ICT security,AI for ICT security,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PHR,Enterprises using AI technologies for human resources management or recruiting,AI for HR or recruitment,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_ADOWN,Enterprises' AI technologies were developed by own employees,AI built by the firm's own staff,Q4 / why
+isoc_eb_ai,indic_is,E_AI_AMOWN,Enterprises' AI technologies were commercial software or systems modified by own employees,Bought AI software modified by own staff,Q4 / why
+isoc_eb_ai,indic_is,E_AI_AOS,Enterprises' AI technologies were open-source software or systems modified by own employees,Open-source AI modified by own staff,Q4 / why
+isoc_eb_ai,indic_is,E_AI_ARDY,Enterprises' AI technologies were commercial software or systems ready to use,Ready-to-use commercial AI product,Q4 / why
+isoc_eb_ai,indic_is,E_AI_AEXT,Enterprises' AI technologies were  developed or modified by external providers,AI built or modified by an external provider,Q4 / why
+isoc_eb_ai,indic_is,E_AI_EC,"Enterprises that ever considered to use one of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Non-user that has EVER CONSIDERED using AI,Q3
+isoc_eb_ai,indic_is,E_AI_BCST,"Enterprises do not use AI technologies, because the costs seem too high",Reason: costs seem too high,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BLE,"Enterprises do not use AI technologies, because of a lack of relevant expertise",Reason: lack of relevant expertise,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BINC,"Enterprises do not use AI technologies, because of incompatibility with existing equipment, software or systems",Reason: incompatible with existing systems,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BDDT,"Enterprises do not use AI technologies, because of difficulties with availability or quality of the necessary data",Reason: data not available or poor quality,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BCDP,"Enterprises do not use AI technologies, because of concerns regarding violation of data protection and privacy",Reason: data protection and privacy concerns,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BLEG,"Enterprises do not use AI technologies, because of a lack of clarity about the legal consequences",Reason: unclear legal consequences,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BEC,"Enterprises do not use AI technologies, because of ethical considerations",Reason: ethical concerns,Q3 reason
+isoc_eb_ai,indic_is,E_AI_BNU,"Enterprises do not use AI technologies, because artificial Intelligence technologies are not useful for Enterprise",Reason: AI not useful for the firm,Q3 reason
+isoc_eb_ai,indic_is,E_AI_DA,Enterprises use AI technologies and perform data analytics,Uses AI and data analytics (check),Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC,Enterprises use AI technologies and buy any cloud computing services used over the internet,Uses AI and cloud computing (check),Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DASANY,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from any source,AI + cloud + any data analytics source (check),Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DASGE3,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from at least three sources,AI + cloud + 3 or more data analytics sources (check),Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DASANY2,"Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from any source among E_DASWEB, E_DASLOC, E_DASSDS, E_DASGOV and E_DASSAT","AI + cloud + data analytics, variant (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DA_ANY,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics,"AI, cloud or data analytics, any of them (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DA,Enterprises use AI technologies and buy sophisticated or intermediate cloud computing services and perform data analytics,AI + cloud + data analytics (check),Why: foundations
+isoc_eb_ai,indic_is,E_AIX_CC1SI_DA,"Enterprises buy sophisticated or intermediate cloud computing services and perform data analytics, but don't use AI technologies","No AI, but cloud + data analytics (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SIX_DA,"Enterprises use AI technologies and perform data analytics, but don't buy sophisticated or intermediate cloud computing services","AI + data analytics, no cloud (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SI_DAX,"Enterprises use AI technologies and buy sophisticated or intermediate cloud computing services, but don't perform data analytics","AI + cloud, no data analytics (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AIX_CC1SIX_DA,"Enterprises perform data analytics, but don't use AI technologies and don't buy sophisticated or intermediate cloud computing services",Data analytics only (check),Why: foundations
+isoc_eb_ai,indic_is,E_AIX_CC1SI_DAX,"Enterprises buy sophisticated or intermediate cloud computing services, but don't use AI technologies and don't perform data analytics",Cloud only (check),Why: foundations
+isoc_eb_ai,indic_is,E_AI_CC1SIX_DAX,"Enterprises use AI technologies, but don't buy sophisticated or intermediate cloud computing services and don't perform data analytics","AI only, no cloud or data analytics (check)",Why: foundations
+isoc_eb_ai,indic_is,E_AI_PBAM,Enterprises using AI technologies for organisation of business administration processes or management,AI for business administration and management,Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PFIN,"Enterprises using AI technologies for accounting, controlling or finance management",AI for accounting or finance (check),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_PRDI,Enterprises using AI technologies for research and development (R&D) or innovation activity,AI for R&D or innovation (check),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_P1ANY,"Enterprises using AI technologies for at least one of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for at least one listed purpose (check),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_P1GE2,"Enterprises using AI technologies for at least two of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for 2 or more purposes (check),Q4 purpose
+isoc_eb_ai,indic_is,E_AI_P1GE3,"Enterprises using AI technologies for at least three of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for 3 or more purposes (check),Q4 purpose
+isoc_eb_ai,indic_is,E_DI3_VLO_AI_TANY,"Enterprises with very low digital intensity index, which use any artificial intelligence technology","Uses AI, VERY LOW digital intensity firm",Why: foundations
+isoc_eb_ai,indic_is,E_DI3_LO_AI_TANY,"Enterprises with low digital intensity index, which use any artificial intelligence technology","Uses AI, LOW digital intensity firm",Why: foundations
+isoc_eb_ai,indic_is,E_DI3_HI_AI_TANY,"Enterprises with high digital intensity index, which use any artificial intelligence technology","Uses AI, HIGH digital intensity firm",Why: foundations
+isoc_eb_ai,indic_is,E_DI3_VHI_AI_TANY,"Enterprises with very high digital intensity index, which use any artificial intelligence technology","Uses AI, VERY HIGH digital intensity firm",Why: foundations
+isoc_eb_ai,indic_is,E_AI_PDI,Enterprises which process data on individuals using AI technologies,Processes data on individuals with AI,Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS,Enterprises which have measures to check the results generated by AI technologies for possible biases towards individuals,Measures against AI bias (check),Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS_ADOWN,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were developed by own employees","Bias measures, AI built in-house (check)",Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS_AMOWN,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were commercial software or systems modified by own employees","Bias measures, bought AI modified in-house (check)",Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS_AOS,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were open-source software or systems modified by own employees","Bias measures, open-source AI (check)",Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS_ARDY,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were purchased commercial software or systems ready to use","Bias measures, ready-to-use AI (check)",Rarely needed
+isoc_eb_ai,indic_is,E_AI_BIAS_AEXT,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were developed or modified by external providers","Bias measures, AI from external provider (check)",Rarely needed
+isoc_eb_ai,indic_is,E_AI_TPVSG,"Enterprises using AI technologies generating pictures, videos, sound/audio","Uses AI to generate pictures, video or sound",Q4 technology
+isoc_eb_ai,unit,PC_ENT,Percentage of enterprises,% of ALL firms in the group,"Q1, Q2"
+isoc_eb_ai,unit,PC_ENT_IUSE,Percentage of enterprises where persons employed have access to the internet,% of firms whose staff have internet access,Rarely needed
+isoc_eb_ai,unit,PC_ENT_AI_EC,Percentage of the enterprises which ever considered to use any of the AI technologies,% of non-users that ever CONSIDERED AI,Q3 reasons
+isoc_eb_ai,unit,PC_ENT_AI_TANY,Percentage of the enterprises using at least one AI technologies,% of firms that USE AI,Q4 purposes
+isoc_eb_ai,unit,PC_ENT_AI_TX,Percentage of the enterprises using no AI technologies,% of firms that do NOT use AI,Q3
+isoc_eb_ai,unit,PC_ENT_AI_PDI,Percentage of the enterprises which process data on individuals using AI technologies,% of firms processing personal data with AI,Rarely needed
+isoc_eb_ai,geo,EU27_2020,European Union - 27 countries (from 2020),"EU total, 27 countries",Benchmark
+isoc_eb_ai,geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",Euro area total,Benchmark
+isoc_eb_ai,geo,BE,Belgium,,
+isoc_eb_ai,geo,BG,Bulgaria,,
+isoc_eb_ai,geo,CZ,Czechia,,
+isoc_eb_ai,geo,DK,Denmark,,
+isoc_eb_ai,geo,DE,Germany,,
+isoc_eb_ai,geo,EE,Estonia,,
+isoc_eb_ai,geo,IE,Ireland,,
+isoc_eb_ai,geo,EL,Greece,,
+isoc_eb_ai,geo,ES,Spain,,
+isoc_eb_ai,geo,FR,France,,
+isoc_eb_ai,geo,HR,Croatia,,
+isoc_eb_ai,geo,IT,Italy,,
+isoc_eb_ai,geo,CY,Cyprus,,
+isoc_eb_ai,geo,LV,Latvia,,
+isoc_eb_ai,geo,LT,Lithuania,,
+isoc_eb_ai,geo,LU,Luxembourg,,
+isoc_eb_ai,geo,HU,Hungary,,
+isoc_eb_ai,geo,MT,Malta,,
+isoc_eb_ai,geo,NL,Netherlands,,
+isoc_eb_ai,geo,AT,Austria,,
+isoc_eb_ai,geo,PL,Poland,,
+isoc_eb_ai,geo,PT,Portugal,,
+isoc_eb_ai,geo,RO,Romania,,
+isoc_eb_ai,geo,SI,Slovenia,,
+isoc_eb_ai,geo,SK,Slovakia,,
+isoc_eb_ai,geo,FI,Finland,,
+isoc_eb_ai,geo,SE,Sweden,,
+isoc_eb_ai,geo,NO,Norway,,
+isoc_eb_ai,geo,BA,Bosnia and Herzegovina,,
+isoc_eb_ai,geo,ME,Montenegro,,
+isoc_eb_ai,geo,MK,North Macedonia,,
+isoc_eb_ai,geo,AL,Albania,,
+isoc_eb_ai,geo,RS,Serbia,,
+isoc_eb_ai,geo,TR,Türkiye,,
+isoc_eb_ai,time,2021,2021,,
+isoc_eb_ai,time,2023,2023,,
+isoc_eb_ai,time,2024,2024,,
+isoc_eb_ai,time,2025,2025,,
+isoc_eb_ain2,freq,A,Annual,,
+isoc_eb_ain2,size_emp,GE10,10 persons employed or more,All firms with 10 or more people (the total),Context
+isoc_eb_ain2,nace_r2,C-F,"Manufacturing, electricity, gas, steam and air conditioning supply; water supply and construction",,
+isoc_eb_ain2,nace_r2,C-E,"Manufacturing, electricity, gas, steam and air conditioning; water supply, sewerage, waste management and remediation activities",,
+isoc_eb_ain2,nace_r2,C,Manufacturing,,
+isoc_eb_ain2,nace_r2,C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector",,
+isoc_eb_ain2,nace_r2,C10-C18,"Manufacture of products based on: food, beverages, tobacco, textile, leather, wood, pulp and paper; publishing and printing",,
+isoc_eb_ain2,nace_r2,C10-C12,Manufacture of food products; beverages and tobacco products,,
+isoc_eb_ain2,nace_r2,C13-C15,"Manufacture of textiles, wearing apparel, leather and related products",,
+isoc_eb_ain2,nace_r2,C16-C18,"Manufacture of wood, paper, printing and reproduction",,
+isoc_eb_ain2,nace_r2,C19-C23,"Manufacture of coke, refined petroleum, chemical and basic pharmaceutical products, rubber and plastics, other non-metallic mineral products",,
+isoc_eb_ain2,nace_r2,C19,Manufacture of coke and refined petroleum products,,
+isoc_eb_ain2,nace_r2,C20,Manufacture of chemicals and chemical products,,
+isoc_eb_ain2,nace_r2,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,,
+isoc_eb_ain2,nace_r2,C22_C23,Manufacture of rubber and plastic products and other non-metallic mineral products,,
+isoc_eb_ain2,nace_r2,C24_C25,"Manufacture of basic metals and fabricated metal products, except machinery and equipment",,
+isoc_eb_ain2,nace_r2,C26-C33,"Manufacture of computers, electric and optical products, electrical equipment, machinery and equipment n.e.c, motor vehicles, other transport equipment, furniture, other manufacturing, repair and installation of machinery and equipment",,
+isoc_eb_ain2,nace_r2,C26,"Manufacture of computer, electronic and optical products",,
+isoc_eb_ain2,nace_r2,C27_C28,"Manufacture of electrical equipment, machinery and equipment n.e.c.",,
+isoc_eb_ain2,nace_r2,C27,Manufacture of electrical equipment,,
+isoc_eb_ain2,nace_r2,C28,Manufacture of machinery and equipment n.e.c.,,
+isoc_eb_ain2,nace_r2,C29_C30,"Manufacture of motor vehicles, trailers, semi-trailers and of other transport equipment",,
+isoc_eb_ain2,nace_r2,C31-C33,"Manufacture of furniture; jewellery, musical instruments, toys; repair and installation of machinery and equipment",,
+isoc_eb_ain2,nace_r2,D_E,"Electricity, gas, steam and air conditioning supply; water supply; sewerage, waste management and remediation activities",,
+isoc_eb_ain2,nace_r2,D,"Electricity, gas, steam and air conditioning supply",,
+isoc_eb_ain2,nace_r2,D35,"Electricity, gas, steam and air conditioning supply",,
+isoc_eb_ain2,nace_r2,E,"Water supply; sewerage, waste management and remediation activities",,
+isoc_eb_ain2,nace_r2,F,Construction,,
+isoc_eb_ain2,nace_r2,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,,
+isoc_eb_ain2,nace_r2,G45-S951_X_K,"Services, without financial sector",,
+isoc_eb_ain2,nace_r2,G45,Wholesale and retail trade and repair of motor vehicles and motorcycles,,
+isoc_eb_ain2,nace_r2,G46,"Wholesale trade, except of motor vehicles and motorcycles",,
+isoc_eb_ain2,nace_r2,G47,"Retail trade, except of motor vehicles and motorcycles",,
+isoc_eb_ain2,nace_r2,H,Transportation and storage,,
+isoc_eb_ain2,nace_r2,I,Accommodation and food service activities,,
+isoc_eb_ain2,nace_r2,I55,Accommodation,,
+isoc_eb_ain2,nace_r2,J,Information and communication,,
+isoc_eb_ain2,nace_r2,J58-J60,"Publishing, motion picture, video, television programme production; sound recording, programming and broadcasting activities",,
+isoc_eb_ain2,nace_r2,J61,Telecommunications,,
+isoc_eb_ain2,nace_r2,J62_J63,"Computer programming, consultancy, and information service activities",,
+isoc_eb_ain2,nace_r2,L_M,"Real estate activities; professional, scientific and technical activities",,
+isoc_eb_ain2,nace_r2,L,Real estate activities,,
+isoc_eb_ain2,nace_r2,L68,Real estate activities,,
+isoc_eb_ain2,nace_r2,M,"Professional, scientific and technical activities",,
+isoc_eb_ain2,nace_r2,M69-M71,Legal and accounting activities; activities of head offices; management consultancy activities; architectural and engineering activities; technical testing and analysis,,
+isoc_eb_ain2,nace_r2,M72,Scientific research and development,,
+isoc_eb_ain2,nace_r2,M73-M75,"Advertising and market research; other professional, scientific and technical activities; veterinary activities",,
+isoc_eb_ain2,nace_r2,N77-N82_X_N79,"Activities for rental and leasing, employment, security and investigation, services to buildings and landscape, office administrative, office support and other business support",,
+isoc_eb_ain2,nace_r2,N,Administrative and support service activities,,
+isoc_eb_ain2,nace_r2,N79,"Travel agency, tour operator and other reservation service and related activities",,
+isoc_eb_ain2,nace_r2,S951,Repair of computers and communication equipment,,
+isoc_eb_ain2,nace_r2,ICT,Information and Communication Technology - total,,
+isoc_eb_ain2,indic_is,E_AI_TTM,Enterprises using AI technologies performing analysis of written language (text mining),Uses AI for text mining (analysing written text),Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TSR,Enterprises using AI technologies converting spoken language into machine-readable format (speech recognition),Uses speech recognition,Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TNLG,"Enterprises using AI technologies generating written or spoken language or programming codes (natural language generation, speech synthesis)","Uses AI to generate text, speech or code (e.g. chatbots)",Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TIR,"Enterprises using AI technologies identifying objects or persons based on images (image recognition, image processing)",Uses image recognition,Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TML,Enterprises using machine learning (e.g. deep learning) for data analysis,Uses machine learning for data analysis,Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TPA,Enterprises using AI technologies automating different workflows or assisting in decision making (AI based software robotic process automation),Uses AI to automate workflows or support decisions,Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TAR,"Enterprises using AI technologies enabling physical movement of machines via autonomous decisions based on observation of surroundings (autonomous robots, self-driving vehicles, autonomous drones)","Uses autonomous robots, vehicles or drones",Q4 technology
+isoc_eb_ain2,indic_is,E_AI_TANY,"Enterprises using at least one of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses AT LEAST ONE AI technology (main adoption measure),"Q1, Q2"
+isoc_eb_ain2,indic_is,E_AI_TX,"Enterprises don't use any of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses NO AI technology,Q1
+isoc_eb_ain2,indic_is,E_AI_TGE2,"Enterprises using at least two of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses 2 or more AI technologies (depth of use),Q1 depth
+isoc_eb_ain2,indic_is,E_AI_TGE3,"Enterprises using at least three of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Uses 3 or more AI technologies (depth of use),Q1 depth
+isoc_eb_ain2,indic_is,E_AI_PMS,Enterprises using AI technologies for marketing or sales,AI for marketing or sales,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PPP,Enterprises using AI technologies for production processes,AI for production processes,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PBA,Enterprises using AI technologies for organisation of business administration processes,AI for business administration (older wording),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PME,Enterprises using AI technologies for management of enterprises,AI for management (older wording),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PLOG,Enterprises using AI technologies for logistics,AI for logistics,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PITS,Enterprises using AI technologies for ICT security,AI for ICT security,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PHR,Enterprises using AI technologies for human resources management or recruiting,AI for HR or recruitment,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_ADOWN,Enterprises' AI technologies were developed by own employees,AI built by the firm's own staff,Q4 / why
+isoc_eb_ain2,indic_is,E_AI_AMOWN,Enterprises' AI technologies were commercial software or systems modified by own employees,Bought AI software modified by own staff,Q4 / why
+isoc_eb_ain2,indic_is,E_AI_AOS,Enterprises' AI technologies were open-source software or systems modified by own employees,Open-source AI modified by own staff,Q4 / why
+isoc_eb_ain2,indic_is,E_AI_ARDY,Enterprises' AI technologies were commercial software or systems ready to use,Ready-to-use commercial AI product,Q4 / why
+isoc_eb_ain2,indic_is,E_AI_AEXT,Enterprises' AI technologies were  developed or modified by external providers,AI built or modified by an external provider,Q4 / why
+isoc_eb_ain2,indic_is,E_AI_EC,"Enterprises that ever considered to use one of the AI technologies: AI_TTM, AI_TSR, AI_TNLG, AI_TIR, AI_TML, AI_TPA, AI_TAR, E_AI_TPVSG",Non-user that has EVER CONSIDERED using AI,Q3
+isoc_eb_ain2,indic_is,E_AI_BCST,"Enterprises do not use AI technologies, because the costs seem too high",Reason: costs seem too high,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BLE,"Enterprises do not use AI technologies, because of a lack of relevant expertise",Reason: lack of relevant expertise,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BINC,"Enterprises do not use AI technologies, because of incompatibility with existing equipment, software or systems",Reason: incompatible with existing systems,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BDDT,"Enterprises do not use AI technologies, because of difficulties with availability or quality of the necessary data",Reason: data not available or poor quality,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BCDP,"Enterprises do not use AI technologies, because of concerns regarding violation of data protection and privacy",Reason: data protection and privacy concerns,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BLEG,"Enterprises do not use AI technologies, because of a lack of clarity about the legal consequences",Reason: unclear legal consequences,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BEC,"Enterprises do not use AI technologies, because of ethical considerations",Reason: ethical concerns,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_BNU,"Enterprises do not use AI technologies, because artificial Intelligence technologies are not useful for Enterprise",Reason: AI not useful for the firm,Q3 reason
+isoc_eb_ain2,indic_is,E_AI_DA,Enterprises use AI technologies and perform data analytics,Uses AI and data analytics (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC,Enterprises use AI technologies and buy any cloud computing services used over the internet,Uses AI and cloud computing (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DASANY,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from any source,AI + cloud + any data analytics source (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DASGE3,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from at least three sources,AI + cloud + 3 or more data analytics sources (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DASANY2,"Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics on data from any source among E_DASWEB, E_DASLOC, E_DASSDS, E_DASGOV and E_DASSAT","AI + cloud + data analytics, variant (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DA_ANY,Enterprises use AI technologies or buy sophisticated or intermediate cloud computing services or perform data analytics,"AI, cloud or data analytics, any of them (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DA,Enterprises use AI technologies and buy sophisticated or intermediate cloud computing services and perform data analytics,AI + cloud + data analytics (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AIX_CC1SI_DA,"Enterprises buy sophisticated or intermediate cloud computing services and perform data analytics, but don't use AI technologies","No AI, but cloud + data analytics (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SIX_DA,"Enterprises use AI technologies and perform data analytics, but don't buy sophisticated or intermediate cloud computing services","AI + data analytics, no cloud (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SI_DAX,"Enterprises use AI technologies and buy sophisticated or intermediate cloud computing services, but don't perform data analytics","AI + cloud, no data analytics (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AIX_CC1SIX_DA,"Enterprises perform data analytics, but don't use AI technologies and don't buy sophisticated or intermediate cloud computing services",Data analytics only (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AIX_CC1SI_DAX,"Enterprises buy sophisticated or intermediate cloud computing services, but don't use AI technologies and don't perform data analytics",Cloud only (check),Why: foundations
+isoc_eb_ain2,indic_is,E_AI_CC1SIX_DAX,"Enterprises use AI technologies, but don't buy sophisticated or intermediate cloud computing services and don't perform data analytics","AI only, no cloud or data analytics (check)",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_PBAM,Enterprises using AI technologies for organisation of business administration processes or management,AI for business administration and management,Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PFIN,"Enterprises using AI technologies for accounting, controlling or finance management",AI for accounting or finance (check),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_PRDI,Enterprises using AI technologies for research and development (R&D) or innovation activity,AI for R&D or innovation (check),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_P1ANY,"Enterprises using AI technologies for at least one of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for at least one listed purpose (check),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_P1GE2,"Enterprises using AI technologies for at least two of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for 2 or more purposes (check),Q4 purpose
+isoc_eb_ain2,indic_is,E_AI_P1GE3,"Enterprises using AI technologies for at least three of the purposes: AI_PMS, AI_PPP, AI_PBAM, AI_PLOG, AI_PITS, AI_PFIN, AI_PRDI",Uses AI for 3 or more purposes (check),Q4 purpose
+isoc_eb_ain2,indic_is,E_DI3_VLO_AI_TANY,"Enterprises with very low digital intensity index, which use any artificial intelligence technology","Uses AI, VERY LOW digital intensity firm",Why: foundations
+isoc_eb_ain2,indic_is,E_DI3_LO_AI_TANY,"Enterprises with low digital intensity index, which use any artificial intelligence technology","Uses AI, LOW digital intensity firm",Why: foundations
+isoc_eb_ain2,indic_is,E_DI3_HI_AI_TANY,"Enterprises with high digital intensity index, which use any artificial intelligence technology","Uses AI, HIGH digital intensity firm",Why: foundations
+isoc_eb_ain2,indic_is,E_DI3_VHI_AI_TANY,"Enterprises with very high digital intensity index, which use any artificial intelligence technology","Uses AI, VERY HIGH digital intensity firm",Why: foundations
+isoc_eb_ain2,indic_is,E_AI_PDI,Enterprises which process data on individuals using AI technologies,Processes data on individuals with AI,Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS,Enterprises which have measures to check the results generated by AI technologies for possible biases towards individuals,Measures against AI bias (check),Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS_ADOWN,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were developed by own employees","Bias measures, AI built in-house (check)",Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS_AMOWN,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were commercial software or systems modified by own employees","Bias measures, bought AI modified in-house (check)",Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS_AOS,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were open-source software or systems modified by own employees","Bias measures, open-source AI (check)",Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS_ARDY,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were purchased commercial software or systems ready to use","Bias measures, ready-to-use AI (check)",Rarely needed
+isoc_eb_ain2,indic_is,E_AI_BIAS_AEXT,"Enterprises which have measures to check the results generated by AI for possible biases towards individuals, and their AI technologies were developed or modified by external providers","Bias measures, AI from external provider (check)",Rarely needed
+isoc_eb_ain2,indic_is,E_AI_TPVSG,"Enterprises using AI technologies generating pictures, videos, sound/audio","Uses AI to generate pictures, video or sound",Q4 technology
+isoc_eb_ain2,unit,PC_ENT,Percentage of enterprises,% of ALL firms in the group,"Q1, Q2"
+isoc_eb_ain2,unit,PC_ENT_IUSE,Percentage of enterprises where persons employed have access to the internet,% of firms whose staff have internet access,Rarely needed
+isoc_eb_ain2,unit,PC_ENT_AI_EC,Percentage of the enterprises which ever considered to use any of the AI technologies,% of non-users that ever CONSIDERED AI,Q3 reasons
+isoc_eb_ain2,unit,PC_ENT_AI_TANY,Percentage of the enterprises using at least one AI technologies,% of firms that USE AI,Q4 purposes
+isoc_eb_ain2,unit,PC_ENT_AI_TX,Percentage of the enterprises using no AI technologies,% of firms that do NOT use AI,Q3
+isoc_eb_ain2,unit,PC_ENT_AI_PDI,Percentage of the enterprises which process data on individuals using AI technologies,% of firms processing personal data with AI,Rarely needed
+isoc_eb_ain2,geo,EU27_2020,European Union - 27 countries (from 2020),"EU total, 27 countries",Benchmark
+isoc_eb_ain2,geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",Euro area total,Benchmark
+isoc_eb_ain2,geo,BE,Belgium,,
+isoc_eb_ain2,geo,BG,Bulgaria,,
+isoc_eb_ain2,geo,CZ,Czechia,,
+isoc_eb_ain2,geo,DK,Denmark,,
+isoc_eb_ain2,geo,DE,Germany,,
+isoc_eb_ain2,geo,EE,Estonia,,
+isoc_eb_ain2,geo,IE,Ireland,,
+isoc_eb_ain2,geo,EL,Greece,,
+isoc_eb_ain2,geo,ES,Spain,,
+isoc_eb_ain2,geo,FR,France,,
+isoc_eb_ain2,geo,HR,Croatia,,
+isoc_eb_ain2,geo,IT,Italy,,
+isoc_eb_ain2,geo,CY,Cyprus,,
+isoc_eb_ain2,geo,LV,Latvia,,
+isoc_eb_ain2,geo,LT,Lithuania,,
+isoc_eb_ain2,geo,LU,Luxembourg,,
+isoc_eb_ain2,geo,HU,Hungary,,
+isoc_eb_ain2,geo,MT,Malta,,
+isoc_eb_ain2,geo,NL,Netherlands,,
+isoc_eb_ain2,geo,AT,Austria,,
+isoc_eb_ain2,geo,PL,Poland,,
+isoc_eb_ain2,geo,PT,Portugal,,
+isoc_eb_ain2,geo,RO,Romania,,
+isoc_eb_ain2,geo,SI,Slovenia,,
+isoc_eb_ain2,geo,SK,Slovakia,,
+isoc_eb_ain2,geo,FI,Finland,,
+isoc_eb_ain2,geo,SE,Sweden,,
+isoc_eb_ain2,geo,NO,Norway,,
+isoc_eb_ain2,geo,BA,Bosnia and Herzegovina,,
+isoc_eb_ain2,geo,ME,Montenegro,,
+isoc_eb_ain2,geo,MK,North Macedonia,,
+isoc_eb_ain2,geo,AL,Albania,,
+isoc_eb_ain2,geo,RS,Serbia,,
+isoc_eb_ain2,geo,TR,Türkiye,,
+isoc_eb_ain2,time,2021,2021,,
+isoc_eb_ain2,time,2023,2023,,
+isoc_eb_ain2,time,2024,2024,,
+isoc_eb_ain2,time,2025,2025,,
+isoc_ske_itspe,freq,A,Annual,,
+isoc_ske_itspe,size_emp,0_1,From 0 to 1 person employed,0 to 1 person employed,UK comparison
+isoc_ske_itspe,size_emp,0-9,From 0 to 9 persons employed,"Micro firms, 0 to 9 people",UK comparison
+isoc_ske_itspe,size_emp,1-4,From 1 to 4 persons employed,,
+isoc_ske_itspe,size_emp,1-9,From 1 to 9 persons employed,,
+isoc_ske_itspe,size_emp,2-9,From 2 to 9 persons employed,2 to 9 people,UK comparison
+isoc_ske_itspe,size_emp,5-9,From 5 to 9 persons employed,,
+isoc_ske_itspe,size_emp,10-49,From 10 to 49 persons employed,SMALL firms,All
+isoc_ske_itspe,size_emp,10-249,From 10 to 249 persons employed,Small and medium together (SMEs),Context
+isoc_ske_itspe,size_emp,GE10,10 persons employed or more,All firms with 10 or more people (the total),Context
+isoc_ske_itspe,size_emp,50-249,From 50 to 249 persons employed,MEDIUM firms,All
+isoc_ske_itspe,size_emp,GE250,250 persons employed or more,"LARGE firms, 250 or more",All
+isoc_ske_itspe,nace_r2,C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector",,
+isoc_ske_itspe,indic_is,E_ITSP2,Enterprise employed ICT/IT specialists (reduced comparability with 2007),,
+isoc_ske_itspe,unit,PC_ENT,Percentage of enterprises,% of ALL firms in the group,"Q1, Q2"
+isoc_ske_itspe,unit,PC_ENT_CUSE,Percentage of the enterprises which use a computer,,
+isoc_ske_itspe,geo,EU27_2020,European Union - 27 countries (from 2020),"EU total, 27 countries",Benchmark
+isoc_ske_itspe,geo,EU28,European Union - 28 countries (2013-2020),,
+isoc_ske_itspe,geo,EU27_2007,European Union - 27 countries (2007-2013),,
+isoc_ske_itspe,geo,EU15,European Union - 15 countries (1995-2004),,
+isoc_ske_itspe,geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",Euro area total,Benchmark
+isoc_ske_itspe,geo,BE,Belgium,,
+isoc_ske_itspe,geo,BG,Bulgaria,,
+isoc_ske_itspe,geo,CZ,Czechia,,
+isoc_ske_itspe,geo,DK,Denmark,,
+isoc_ske_itspe,geo,DE,Germany,,
+isoc_ske_itspe,geo,EE,Estonia,,
+isoc_ske_itspe,geo,IE,Ireland,,
+isoc_ske_itspe,geo,EL,Greece,,
+isoc_ske_itspe,geo,ES,Spain,,
+isoc_ske_itspe,geo,FR,France,,
+isoc_ske_itspe,geo,HR,Croatia,,
+isoc_ske_itspe,geo,IT,Italy,,
+isoc_ske_itspe,geo,CY,Cyprus,,
+isoc_ske_itspe,geo,LV,Latvia,,
+isoc_ske_itspe,geo,LT,Lithuania,,
+isoc_ske_itspe,geo,LU,Luxembourg,,
+isoc_ske_itspe,geo,HU,Hungary,,
+isoc_ske_itspe,geo,MT,Malta,,
+isoc_ske_itspe,geo,NL,Netherlands,,
+isoc_ske_itspe,geo,AT,Austria,,
+isoc_ske_itspe,geo,PL,Poland,,
+isoc_ske_itspe,geo,PT,Portugal,,
+isoc_ske_itspe,geo,RO,Romania,,
+isoc_ske_itspe,geo,SI,Slovenia,,
+isoc_ske_itspe,geo,SK,Slovakia,,
+isoc_ske_itspe,geo,FI,Finland,,
+isoc_ske_itspe,geo,SE,Sweden,,
+isoc_ske_itspe,geo,IS,Iceland,,
+isoc_ske_itspe,geo,NO,Norway,,
+isoc_ske_itspe,geo,UK,United Kingdom,,
+isoc_ske_itspe,geo,BA,Bosnia and Herzegovina,,
+isoc_ske_itspe,geo,ME,Montenegro,,
+isoc_ske_itspe,geo,MK,North Macedonia,,
+isoc_ske_itspe,geo,AL,Albania,,
+isoc_ske_itspe,geo,RS,Serbia,,
+isoc_ske_itspe,geo,TR,Türkiye,,
+isoc_ske_itspe,time,2012,2012,,
+isoc_ske_itspe,time,2014,2014,,
+isoc_ske_itspe,time,2015,2015,,
+isoc_ske_itspe,time,2016,2016,,
+isoc_ske_itspe,time,2017,2017,,
+isoc_ske_itspe,time,2018,2018,,
+isoc_ske_itspe,time,2019,2019,,
+isoc_ske_itspe,time,2020,2020,,
+isoc_ske_itspe,time,2022,2022,,
+isoc_ske_itspe,time,2024,2024,,
+isoc_cicce_use,freq,A,Annual,,
+isoc_cicce_use,size_emp,0_1,From 0 to 1 person employed,0 to 1 person employed,UK comparison
+isoc_cicce_use,size_emp,0-9,From 0 to 9 persons employed,"Micro firms, 0 to 9 people",UK comparison
+isoc_cicce_use,size_emp,1-4,From 1 to 4 persons employed,,
+isoc_cicce_use,size_emp,1-9,From 1 to 9 persons employed,,
+isoc_cicce_use,size_emp,2-9,From 2 to 9 persons employed,2 to 9 people,UK comparison
+isoc_cicce_use,size_emp,5-9,From 5 to 9 persons employed,,
+isoc_cicce_use,size_emp,10-49,From 10 to 49 persons employed,SMALL firms,All
+isoc_cicce_use,size_emp,10-249,From 10 to 249 persons employed,Small and medium together (SMEs),Context
+isoc_cicce_use,size_emp,GE10,10 persons employed or more,All firms with 10 or more people (the total),Context
+isoc_cicce_use,size_emp,50-249,From 50 to 249 persons employed,MEDIUM firms,All
+isoc_cicce_use,size_emp,GE250,250 persons employed or more,"LARGE firms, 250 or more",All
+isoc_cicce_use,nace_r2,C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector",,
+isoc_cicce_use,indic_is,E_CC,Enterprises using paid cloud computing services used over the internet,,
+isoc_cicce_use,indic_is,E_CC_PEM,Enterprises using e-mail (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PSOFT,"Enterprises using office software (e.g. word processors, spreadsheets, etc.) (as a paid CC service)",,
+isoc_cicce_use,indic_is,E_CC_PDB,Enterprises using hosting for the enterprise's database (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PFIL,Enterprises using storage of files (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PFACC,Enterprises using finance or accounting software applications (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PCRM,Enterprises using CRM software (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PCPU,Enterprises using computing power to run the enterprise's own software (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PERP,Enterprises using ERP software applications (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PSEC,Enterprises using security software applications (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PDEV,"Enterprises using computing platform providing a hosted environment for application development, testing or deployment (as a paid CC service)",,
+isoc_cicce_use,indic_is,E_CC_PANY,"Buy at least one of the mentioned CC services - until 2020 (E_CC_PEM, E_CC_PSOFT, E_CC_PDB, E_CC_PFIL, E_CC_PFACC, E_CC_PCRM, E_CC_PCPU)",,
+isoc_cicce_use,indic_is,E_CC_PNONE,"Don't buy any of the mentioned CC services - until 2020 (E_CC_PEM, E_CC_PSOFT, E_CC_PDB, E_CC_PFIL, E_CC_PFACC, E_CC_PCRM, E_CC_PCPU)",,
+isoc_cicce_use,indic_is,E_CC1_PANY,"Enterprises using at least one of the paid CC services: CC_PEM, CC_PSOFT, CC_PFACC, CC_PERP, CC_PCRM, CC_PSEC, CC_PDB, CC_PFIL, CC_PCPU, CC_PDEV",,
+isoc_cicce_use,indic_is,E_CC1_PNONE,"Enterprises not using any of the paid CC services: CC_PEM, CC_PSOFT, CC_PFACC, CC_PERP, CC_PCRM, CC_PSEC, CC_PDB, CC_PFIL, CC_PCPU, CC_PDEV",,
+isoc_cicce_use,indic_is,E_CC_LO,"Buy only low CC services - until 2020 (e-mail, office software, storage of files)",,
+isoc_cicce_use,indic_is,E_CC_ME,"Buy only medium CC services - until 2020 (e-mail, office software, storage of files, hosting of the enterprise's database)",,
+isoc_cicce_use,indic_is,E_CC_HI,"Buy high CC services - until 2020 (accounting software applications, CRM software, computing power)",,
+isoc_cicce_use,indic_is,E_CC1_B,"Enterprises using only basic paid CC services, at least one of: CC_PEM, CC_PSOFT, CC_PFIL, CC_PCPU",,
+isoc_cicce_use,indic_is,E_CC1_I,"Enterprises using at most  intermediate paid CC services, at least one of: CC_PFACC, CC_PERP, CC_PCRMCC_PCRM",,
+isoc_cicce_use,indic_is,E_CC1_S,"Enterprises using sophisticated paid CC services, at least one of: CC_PSEC, CC_PDB, CC_PDEV",,
+isoc_cicce_use,indic_is,E_CC1_BI,"Enterprises using basic or intermediate paid CC services, at least one of:  CC_PEM, CC_PSOFT, CC_PFIL, CC_PCPU, CC_PFACC, CC_PERP, CC_PCRM",,
+isoc_cicce_use,indic_is,E_CC1_SI,"Enterprises using sophisticated or intermediate paid CC services, at least one of: CC_PFACC, CC_PERP, CC_PCRM, CC_PSEC, CC_PDB, CC_PDEV",,
+isoc_cicce_use,indic_is,E_CC1_SS_GE1,"Enterprises using at least one of the paid CC software services: CC_PEM, CC_PSOFT, CC_PFACC, CC_PERP, CC_PCRM, CC_PSEC",,
+isoc_cicce_use,indic_is,E_CC1_IS_GE1,"Enterprises using at least one of the paid CC infrastructure service: CC_PDB, CC_PFIL, CC_PCPU",,
+isoc_cicce_use,indic_is,E_CC1_PS,Enterprises using paid CC platform services: CC_PDEV,,
+isoc_cicce_use,indic_is,E_CC_IOT,Enterprises buying CC services and using IoT (until 2021),,
+isoc_cicce_use,indic_is,E_CC_IOTX,Enterprises buying CC services but not using IoT (until 2021),,
+isoc_cicce_use,indic_is,E_CC_DA,Enterprises using paid cloud computing services and perform data analytics,,
+isoc_cicce_use,indic_is,E_CC_PDBFIL,Enterprises using hosting for the enterprise's database(s) or storage of files (as a paid CC service),,
+isoc_cicce_use,indic_is,E_CC_PHW,Enterprises using hosting for the enterprise's database(s) or storage of files or computing power (as a paid CC service),,
+isoc_cicce_use,unit,PC_ENT,Percentage of enterprises,% of ALL firms in the group,"Q1, Q2"
+isoc_cicce_use,unit,PC_ENT_CC,Percentage of enterprises using paid CC services,,
+isoc_cicce_use,unit,PC_ENT_CUSE,Percentage of the enterprises which use a computer,,
+isoc_cicce_use,unit,PC_ENT_IUSE,Percentage of enterprises where persons employed have access to the internet,% of firms whose staff have internet access,Rarely needed
+isoc_cicce_use,unit,PC_ENT_IACC,Percentage of the enterprises with internet access,,
+isoc_cicce_use,geo,EU27_2020,European Union - 27 countries (from 2020),"EU total, 27 countries",Benchmark
+isoc_cicce_use,geo,EU28,European Union - 28 countries (2013-2020),,
+isoc_cicce_use,geo,EU27_2007,European Union - 27 countries (2007-2013),,
+isoc_cicce_use,geo,EU15,European Union - 15 countries (1995-2004),,
+isoc_cicce_use,geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",Euro area total,Benchmark
+isoc_cicce_use,geo,BE,Belgium,,
+isoc_cicce_use,geo,BG,Bulgaria,,
+isoc_cicce_use,geo,CZ,Czechia,,
+isoc_cicce_use,geo,DK,Denmark,,
+isoc_cicce_use,geo,DE,Germany,,
+isoc_cicce_use,geo,EE,Estonia,,
+isoc_cicce_use,geo,IE,Ireland,,
+isoc_cicce_use,geo,EL,Greece,,
+isoc_cicce_use,geo,ES,Spain,,
+isoc_cicce_use,geo,FR,France,,
+isoc_cicce_use,geo,HR,Croatia,,
+isoc_cicce_use,geo,IT,Italy,,
+isoc_cicce_use,geo,CY,Cyprus,,
+isoc_cicce_use,geo,LV,Latvia,,
+isoc_cicce_use,geo,LT,Lithuania,,
+isoc_cicce_use,geo,LU,Luxembourg,,
+isoc_cicce_use,geo,HU,Hungary,,
+isoc_cicce_use,geo,MT,Malta,,
+isoc_cicce_use,geo,NL,Netherlands,,
+isoc_cicce_use,geo,AT,Austria,,
+isoc_cicce_use,geo,PL,Poland,,
+isoc_cicce_use,geo,PT,Portugal,,
+isoc_cicce_use,geo,RO,Romania,,
+isoc_cicce_use,geo,SI,Slovenia,,
+isoc_cicce_use,geo,SK,Slovakia,,
+isoc_cicce_use,geo,FI,Finland,,
+isoc_cicce_use,geo,SE,Sweden,,
+isoc_cicce_use,geo,IS,Iceland,,
+isoc_cicce_use,geo,NO,Norway,,
+isoc_cicce_use,geo,UK,United Kingdom,,
+isoc_cicce_use,geo,BA,Bosnia and Herzegovina,,
+isoc_cicce_use,geo,ME,Montenegro,,
+isoc_cicce_use,geo,MK,North Macedonia,,
+isoc_cicce_use,geo,AL,Albania,,
+isoc_cicce_use,geo,RS,Serbia,,
+isoc_cicce_use,geo,TR,Türkiye,,
+isoc_cicce_use,time,2014,2014,,
+isoc_cicce_use,time,2015,2015,,
+isoc_cicce_use,time,2016,2016,,
+isoc_cicce_use,time,2017,2017,,
+isoc_cicce_use,time,2018,2018,,
+isoc_cicce_use,time,2020,2020,,
+isoc_cicce_use,time,2021,2021,,
+isoc_cicce_use,time,2023,2023,,
+isoc_cicce_use,time,2024,2024,,
+isoc_cicce_use,time,2025,2025,,
+isoc_e_dii,freq,A,Annual,,
+isoc_e_dii,size_emp,0_1,From 0 to 1 person employed,0 to 1 person employed,UK comparison
+isoc_e_dii,size_emp,0-9,From 0 to 9 persons employed,"Micro firms, 0 to 9 people",UK comparison
+isoc_e_dii,size_emp,1-4,From 1 to 4 persons employed,,
+isoc_e_dii,size_emp,1-9,From 1 to 9 persons employed,,
+isoc_e_dii,size_emp,2-9,From 2 to 9 persons employed,2 to 9 people,UK comparison
+isoc_e_dii,size_emp,5-9,From 5 to 9 persons employed,,
+isoc_e_dii,size_emp,10-49,From 10 to 49 persons employed,SMALL firms,All
+isoc_e_dii,size_emp,10-249,From 10 to 249 persons employed,Small and medium together (SMEs),Context
+isoc_e_dii,size_emp,GE10,10 persons employed or more,All firms with 10 or more people (the total),Context
+isoc_e_dii,size_emp,50-249,From 50 to 249 persons employed,MEDIUM firms,All
+isoc_e_dii,size_emp,GE250,250 persons employed or more,"LARGE firms, 250 or more",All
+isoc_e_dii,nace_r2,C10-S951_X_K,"All activities (except agriculture, forestry and fishing, and mining and quarrying), without financial sector",,
+isoc_e_dii,indic_is,E_DI4_VLO,Enterprises with very low digital intensity index (Version 4),,
+isoc_e_dii,indic_is,E_DI4_GELO,Enterprises with at least basic level of digital intensity (DII Version 4),,
+isoc_e_dii,indic_is,E_DI4_LO,Enterprises with low digital intensity index (Version 4),,
+isoc_e_dii,indic_is,E_DI4_HI,Enterprises with high digital intensity index (Version 4),,
+isoc_e_dii,indic_is,E_DI4_VHI,Enterprises with very high digital intensity index (Version 4),,
+isoc_e_dii,indic_is,E_DI3_VLO,Enterprises with very low digital intensity index (DII version 3),,
+isoc_e_dii,indic_is,E_DI3_LO,Enterprises with low digital intensity index (DII version 3),,
+isoc_e_dii,indic_is,E_DI3_HI,Enterprises with high digital intensity index (DII version 3),,
+isoc_e_dii,indic_is,E_DI3_VHI,Enterprises with very high digital intensity index (DII version 3),,
+isoc_e_dii,indic_is,E_DI_VLO,Enterprises with very low digital intensity index (DII version 1),,
+isoc_e_dii,indic_is,E_DI_LO,Enterprises with low digital intensity index (DII version 1),,
+isoc_e_dii,indic_is,E_DI_HI,Enterprises with high digital intensity index (DII version 1),,
+isoc_e_dii,indic_is,E_DI_VHI,Enterprises with very high digital intensity index (DII version 1),,
+isoc_e_dii,indic_is,E_DI2_VLO,Enterprises with very low digital intensity index (DII version 2),,
+isoc_e_dii,indic_is,E_DI2_LO,Enterprises with low digital intensity index (DII version 2),,
+isoc_e_dii,indic_is,E_DI2_HI,Enterprises with high digital intensity index (DII version 2),,
+isoc_e_dii,indic_is,E_DI2_VHI,Enterprises with very high digital intensity index (DII version 2),,
+isoc_e_dii,indic_is,E_DI3_GELO,Enterprises with at least basic level of digital intensity (DII Version 3),,
+isoc_e_dii,unit,PC_ENT,Percentage of enterprises,% of ALL firms in the group,"Q1, Q2"
+isoc_e_dii,geo,EU27_2020,European Union - 27 countries (from 2020),"EU total, 27 countries",Benchmark
+isoc_e_dii,geo,EU28,European Union - 28 countries (2013-2020),,
+isoc_e_dii,geo,EU27_2007,European Union - 27 countries (2007-2013),,
+isoc_e_dii,geo,EU15,European Union - 15 countries (1995-2004),,
+isoc_e_dii,geo,EA,"Euro area (EA11-1999, EA12-2001, EA13-2007, EA15-2008, EA16-2009, EA17-2011, EA18-2014, EA19-2015, EA20-2023, EA21-2026)",Euro area total,Benchmark
+isoc_e_dii,geo,BE,Belgium,,
+isoc_e_dii,geo,BG,Bulgaria,,
+isoc_e_dii,geo,CZ,Czechia,,
+isoc_e_dii,geo,DK,Denmark,,
+isoc_e_dii,geo,DE,Germany,,
+isoc_e_dii,geo,EE,Estonia,,
+isoc_e_dii,geo,IE,Ireland,,
+isoc_e_dii,geo,EL,Greece,,
+isoc_e_dii,geo,ES,Spain,,
+isoc_e_dii,geo,FR,France,,
+isoc_e_dii,geo,HR,Croatia,,
+isoc_e_dii,geo,IT,Italy,,
+isoc_e_dii,geo,CY,Cyprus,,
+isoc_e_dii,geo,LV,Latvia,,
+isoc_e_dii,geo,LT,Lithuania,,
+isoc_e_dii,geo,LU,Luxembourg,,
+isoc_e_dii,geo,HU,Hungary,,
+isoc_e_dii,geo,MT,Malta,,
+isoc_e_dii,geo,NL,Netherlands,,
+isoc_e_dii,geo,AT,Austria,,
+isoc_e_dii,geo,PL,Poland,,
+isoc_e_dii,geo,PT,Portugal,,
+isoc_e_dii,geo,RO,Romania,,
+isoc_e_dii,geo,SI,Slovenia,,
+isoc_e_dii,geo,SK,Slovakia,,
+isoc_e_dii,geo,FI,Finland,,
+isoc_e_dii,geo,SE,Sweden,,
+isoc_e_dii,geo,NO,Norway,,
+isoc_e_dii,geo,UK,United Kingdom,,
+isoc_e_dii,geo,BA,Bosnia and Herzegovina,,
+isoc_e_dii,geo,ME,Montenegro,,
+isoc_e_dii,geo,MK,North Macedonia,,
+isoc_e_dii,geo,RS,Serbia,,
+isoc_e_dii,geo,TR,Türkiye,,
+isoc_e_dii,time,2015,2015,,
+isoc_e_dii,time,2016,2016,,
+isoc_e_dii,time,2017,2017,,
+isoc_e_dii,time,2018,2018,,
+isoc_e_dii,time,2019,2019,,
+isoc_e_dii,time,2020,2020,,
+isoc_e_dii,time,2021,2021,,
+isoc_e_dii,time,2022,2022,,
+isoc_e_dii,time,2023,2023,,
+isoc_e_dii,time,2024,2024,,
+isoc_e_dii,time,2025,2025,,

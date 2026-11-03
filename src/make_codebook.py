@@ -1,21 +1,21 @@
 """
-Build a codebook: one row per code in a downloaded Eurostat dataset.
+Build ONE codebook for every project dataset: one row per code, per dataset.
 
-It reads the raw JSON saved by ingest_eurostat.py, so the official labels come straight
+It reads the raw JSON files saved by download_all.py, so the official labels come straight
 from Eurostat. A plain-English note and the project question each code helps answer are
 added from NOTES below; codes marked "check" are best guesses, so confirm against the
-official label.
+official label. Codes with no note yet simply have blank notes.
 
-Run it from the project folder (after ingest_eurostat.py):
-    python src/make_codebook.py              # default dataset
-    python src/make_codebook.py isoc_eb_ain2 # another dataset
+Run it from the project folder (after download_all.py):
+    python src/make_codebook.py
 """
 
 import json
-import sys
 from pathlib import Path
 
 import pandas as pd
+
+from download_all import DATASETS  # the same dataset list the download uses
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = PROJECT_DIR / "data" / "raw"
@@ -132,12 +132,20 @@ def build_codebook(code: str) -> pd.DataFrame:
 
 
 def main() -> None:
-    code = sys.argv[1] if len(sys.argv) > 1 else "isoc_eb_ai"
-    codebook = build_codebook(code)
+    parts = []
+    for code in DATASETS:
+        if not (RAW_DIR / f"{code}.json").exists():
+            print(f"Skipping {code}: no raw JSON yet. Run download_all.py first.")
+            continue
+        part = build_codebook(code)
+        print(f"{code}: {len(part)} codes")
+        parts.append(part)
+
+    codebook = pd.concat(parts, ignore_index=True)
     OUT_DIR.mkdir(exist_ok=True)
-    csv_path = OUT_DIR / f"codebook_{code}.csv"
+    csv_path = OUT_DIR / "codebook.csv"
     codebook.to_csv(csv_path, index=False)
-    print(f"{len(codebook)} codes written to {csv_path}")
+    print(f"\n{len(codebook)} codes written to {csv_path}")
 
 
 if __name__ == "__main__":

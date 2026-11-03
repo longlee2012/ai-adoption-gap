@@ -53,7 +53,7 @@ Each row is **one percentage** describing a group of firms. You only know what i
 
 Example: `10-49 | E_AI_TANY | PC_ENT | EU27_2020 | 2025 | 17.00` means *"in 2025, 17% of all EU firms with 10-49 employees used at least one AI technology."*
 
-The full list of 63 indicators and all other codes is in the codebook: `docs/codebook_isoc_eb_ai.csv`.
+The full list of 63 indicators and all other codes, for every dataset, is in the codebook: `docs/codebook.csv` (filter the `dataset` column).
 
 ### Caveats
 
@@ -67,10 +67,11 @@ The full list of 63 indicators and all other codes is in the codebook: `docs/cod
 ```
 ai-adoption-gap/
   data/raw/              # data downloaded from the API, untouched
-  docs/                  # codebooks for each dataset
+  docs/codebook.csv      # every code in every dataset, with plain-English notes
   src/
     ingest_eurostat.py   # downloads a Eurostat dataset and converts it to a tidy table
-    make_codebook.py     # builds a codebook of every code with plain-English notes
+    download_all.py      # downloads every dataset the project needs
+    make_codebook.py     # builds the codebook for all datasets
   requirements.txt
 ```
 
@@ -83,11 +84,11 @@ python -m venv .venv
 .venv\Scripts\activate              # Windows (Mac: source .venv/bin/activate)
 pip install -r requirements.txt
 
-python src/ingest_eurostat.py       # downloads isoc_eb_ai to data/raw/
-python src/make_codebook.py         # writes docs/codebook_isoc_eb_ai.csv
+python src/download_all.py          # downloads every dataset to data/raw/
+python src/make_codebook.py         # writes docs/codebook.csv
 ```
 
-Pass another dataset code to either script, for example `python src/ingest_eurostat.py isoc_eb_ain2`.
+To explore a single dataset, pass its code: `python src/ingest_eurostat.py isoc_eb_ain2`.
 
 **Tip:** open the CSVs in Excel through *Data > From Text/CSV* and set `size_emp` to Text, otherwise Excel turns `10-49` into a date.
 
