@@ -25,9 +25,14 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = PROJECT_DIR / "data" / "raw"
 
 
-def fetch_dataset(code: str) -> dict:
-    """Call the API and return the response as a Python dictionary."""
-    params = {"format": "JSON", "lang": "EN"}
+def fetch_dataset(code: str, filters: dict | None = None) -> dict:
+    """
+    Call the API and return the response as a Python dictionary.
+
+    filters keeps only some categories, e.g. {"geo": "EU27_2020"}, so a big dataset
+    downloads only the part you need.
+    """
+    params = {"format": "JSON", "lang": "EN", **(filters or {})}
     print(f"Requesting {code} from Eurostat...")
     response = requests.get(f"{BASE_URL}/{code}", params=params, timeout=120)
     response.raise_for_status()  # stops here with an error if the server said no (e.g. 404)
@@ -50,10 +55,10 @@ def describe(data: dict) -> None:
     for dim_id in data["id"]:
         labels = data["dimension"][dim_id]["category"]["label"]
         print(f"- {dim_id} ({len(labels)} categories)")
-        for code, label in list(labels.items())[:100]:
+        for code, label in list(labels.items())[:15]:
             print(f"    {code}: {label}")
-        if len(labels) > 100:
-            print(f"    ... and {len(labels) - 100} more")
+        if len(labels) > 15:
+            print(f"    ... and {len(labels) - 15} more")
 
 
 def to_tidy(data: dict) -> pd.DataFrame:

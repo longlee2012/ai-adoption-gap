@@ -17,6 +17,12 @@ DATASETS = {
     "isoc_ske_itspe": "Why: firms employing ICT specialists, by size",
     "isoc_cicce_use": "Why: cloud computing use, by size",
     "isoc_e_dii": "Why: digital intensity, by size",
+    "sbs_sc_ovw": "Q2: number of firms by sector and size (business structure)",
+}
+
+# Big datasets: download only the part the project needs
+FILTERS = {
+    "sbs_sc_ovw": {"geo": "EU27_2020"},
 }
 
 
@@ -25,7 +31,7 @@ def main() -> None:
         print("=" * 70)
         print(f"{code}  ({purpose})")
         try:
-            data = fetch_dataset(code)
+            data = fetch_dataset(code, FILTERS.get(code))
         except Exception as error:  # one failed download shouldn't stop the others
             print(f"FAILED: {error}")
             continue

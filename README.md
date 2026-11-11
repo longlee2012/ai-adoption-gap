@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project using **Python, SQL, Excel and Power BI** to measure the AI adoption gap between small and large businesses in Europe and the UK, and to explore why it exists.
 
-> **Status:** in progress. Steps 1 and 2 of 8 are complete: five Eurostat datasets are pulled through the API, combined into one clean table and validated.
+> **Status:** in progress. Steps 1 and 2 of 8 are complete: five Eurostat survey datasets are pulled through the API, combined into one clean table and validated, plus Eurostat business statistics for the number of firms per sector.
 
 ## The question
 
@@ -51,6 +51,7 @@ Small firms trail on skills, cloud and digital basics as well as on AI. Whether 
 | [Eurostat: Enterprises that employ ICT specialists](https://ec.europa.eu/eurostat/databrowser/view/isoc_ske_itspe/default/table) (`isoc_ske_itspe`) | Skills, by firm size; 2022, 2024 | Eurostat API |
 | [Eurostat: Cloud computing services](https://ec.europa.eu/eurostat/databrowser/view/isoc_cicce_use/default/table) (`isoc_cicce_use`) | Cloud use, by firm size; 2021, 2023-2025 | Eurostat API |
 | [Eurostat: Digital Intensity Index](https://ec.europa.eu/eurostat/databrowser/view/isoc_e_dii/default/table) (`isoc_e_dii`) | Digital intensity, by firm size; 2021-2025 | Eurostat API |
+| [Eurostat: Enterprise statistics by size class and NACE Rev. 2 activity](https://ec.europa.eu/eurostat/databrowser/view/sbs_sc_ovw/default/table) (`sbs_sc_ovw`) | Number of firms (`ENT_NR`) by sector and size class, used for Q2 (share of small firms per sector); EU total only; 2021-2024 | Eurostat API, filtered to `geo=EU27_2020` |
 | [ONS Business Insights and Conditions Survey](https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy) | UK, 2023 to 2026 | Excel downloads, planned for Step 3 |
 
 ### About the data
@@ -68,7 +69,9 @@ Each row is **one percentage** describing a group of firms. You only know what i
 
 Example: `10-49 | E_AI_TANY | PC_ENT | EU27_2020 | 2025 | 17.00` means *"in 2025, 17% of all EU firms with 10-49 employees used at least one AI technology."*
 
-All five datasets come from Eurostat's *ICT usage in enterprises* survey, so they share the same columns and size groups and can be stacked into one table. The combined table adds a `dataset` column (which file each row came from) and `nace_r2` (sector).
+The five `isoc_` datasets come from Eurostat's *ICT usage in enterprises* survey, so they share the same columns and size groups and can be stacked into one table. The combined table adds a `dataset` column (which file each row came from) and `nace_r2` (sector).
+
+`sbs_sc_ovw` is different: it holds **counts of firms**, not percentages, from Eurostat's structural business statistics. It is kept in `data/raw/` as its own table and is not stacked into `eurostat_long.csv` (`combine.py` skips it).
 
 Every code, with its official label, is in the codebooks in `docs/` (one per dataset).
 
@@ -101,7 +104,7 @@ ai-adoption-gap/
   docs/                  # codebooks for each dataset
   src/
     ingest_eurostat.py   # downloads one Eurostat dataset and converts it to a tidy table
-    download_all.py      # downloads all five datasets in one go
+    download_all.py      # downloads all six datasets in one go
     combine.py           # combines them into one clean table and prints a coverage check
     make_codebook.py     # builds a codebook of every code with plain-English notes
   requirements.txt
@@ -116,7 +119,7 @@ python -m venv .venv
 .venv\Scripts\activate              # Windows (Mac: source .venv/bin/activate)
 pip install -r requirements.txt
 
-python src/download_all.py          # downloads all five datasets to data/raw/
+python src/download_all.py          # downloads all six datasets to data/raw/
 python src/combine.py               # writes data/clean/eurostat_long.csv
 python src/make_codebook.py isoc_eb_ai   # writes docs/codebook_isoc_eb_ai.csv (repeat per dataset)
 ```
