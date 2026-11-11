@@ -1,0 +1,32 @@
+source,question,code,label,theme
+eurostat,Q3,E_AI_BLE,Lack of relevant expertise,skills
+eurostat,Q3,E_AI_BCST,Costs seem too high,cost
+eurostat,Q3,E_AI_BNU,AI not useful for the firm,no clear use
+eurostat,Q3,E_AI_BDDT,Data not available or poor quality,data
+eurostat,Q3,E_AI_BCDP,Data protection and privacy concerns,legal and privacy
+eurostat,Q3,E_AI_BLEG,Unclear legal consequences,legal and privacy
+eurostat,Q3,E_AI_BEC,Ethical concerns,trust and ethics
+eurostat,Q3,E_AI_BINC,Incompatible with existing systems,technical fit
+ons,Q3,UK_BAR_EXPERTISE,Level of expertise in AI,skills
+ons,Q3,UK_BAR_COST,Cost,cost
+ons,Q3,UK_BAR_USECASE,Difficulty identifying business use cases,no clear use
+ons,Q3,UK_BAR_SECURITY,Security concerns,legal and privacy
+ons,Q3,UK_BAR_REGULATION,Concerns about government regulations or industry standards,legal and privacy
+ons,Q3,UK_BAR_TRUST,Lack of trust in AI product safety or transparency,trust and ethics
+ons,Q3,UK_BAR_EMPLOYEES,Employee concern about the impact of AI,trust and ethics
+ons,Q3,UK_BAR_AVAILABILITY,Product or service availability,technical fit
+ons,Q3,UK_BAR_NONE,Not prevented or delayed (no barrier),no barrier
+eurostat,Q4,E_AI_PPP,AI for production processes,operations
+eurostat,Q4,E_AI_PLOG,AI for logistics,operations
+eurostat,Q4,E_AI_PBAM,AI for business administration and management,admin and management
+eurostat,Q4,E_AI_PBA,AI for business administration (older wording),admin and management
+eurostat,Q4,E_AI_PME,AI for management (older wording),admin and management
+eurostat,Q4,E_AI_PFIN,AI for accounting or finance,admin and management
+eurostat,Q4,E_AI_PHR,AI for HR or recruitment,admin and management
+eurostat,Q4,E_AI_PMS,AI for marketing or sales,customers and sales
+eurostat,Q4,E_AI_PRDI,AI for R&D or innovation,innovation
+eurostat,Q4,E_AI_PITS,AI for ICT security,ICT security
+ons,Q4,UK_USE_OPERATIONS,Improve business operations,operations
+ons,Q4,UK_USE_CUSTOMERS,Provide or personalise products or services to customers,customers and sales
+ons,Q4,UK_USE_NEWMARKET,Explore a new market,customers and sales
+ons,Q4,UK_USE_NEWPRODUCT,Develop a new product or service,innovation
