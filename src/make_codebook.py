@@ -32,6 +32,14 @@ NOTES = {
     "GE250": ("LARGE firms, 250 or more", "All"),
     "10-249": ("Small and medium together (SMEs)", "Context"),
     "GE10": ("All firms with 10 or more people (the total)", "Context"),
+    "10-19": ("Part of SMALL firms (sbs_sc_ovw splits 10-49 into 10-19 and 20-49)", "Q2"),
+    "20-49": ("Part of SMALL firms (add to 10-19 to get 10-49)", "Q2"),
+    "TOTAL": ("All firms INCLUDING 0-9; don't divide by it, use 10-19 to GE250", "Q2 (caution)"),
+    # indic_sbs: business structure (sbs_sc_ovw holds counts, not percentages)
+    "ENT_NR": ("NUMBER of firms (a count, not a %)", "Q2 small-firm share"),
+    "EMP_NR": ("Number of people employed (a count)", "Q2 context"),
+    # nace_r2 totals
+    "B-S_X_O_S94": ("All business sectors total in sbs_sc_ovw (includes mining, not in the AI survey)", "Context"),
     # unit
     "PC_ENT": ("% of ALL firms in the group", "Q1, Q2"),
     "PC_ENT_IUSE": ("% of firms whose staff have internet access", "Rarely needed"),
