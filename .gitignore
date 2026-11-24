@@ -1,3 +1,5 @@
 .venv/
 __pycache__/
 *.pyc
+data/ai_gap.duckdb
+data/ai_gap.duckdb.wal

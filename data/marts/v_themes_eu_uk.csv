@@ -1,0 +1,45 @@
+source,question,year,size_emp,theme,unit,top_reason_pct,codes_in_theme,theme_rank
+EU,Q3,2025,GE250,skills,PC_ENT_AI_EC,65.11,1,1
+EU,Q3,2025,GE250,legal and privacy,PC_ENT_AI_EC,58.76,2,2
+EU,Q3,2025,GE250,data,PC_ENT_AI_EC,43.81,1,3
+EU,Q3,2025,GE250,technical fit,PC_ENT_AI_EC,37.99,1,4
+EU,Q3,2025,GE250,cost,PC_ENT_AI_EC,34.78,1,5
+EU,Q3,2025,GE250,trust and ethics,PC_ENT_AI_EC,21.2,1,6
+EU,Q3,2025,GE250,no clear use,PC_ENT_AI_EC,9.77,1,7
+EU,Q4,2025,10-49,customers and sales,PC_ENT_AI_TANY,34.06,1,1
+EU,Q4,2025,10-49,admin and management,PC_ENT_AI_TANY,28.49,2,2
+EU,Q4,2025,10-49,operations,PC_ENT_AI_TANY,19.02,2,3
+EU,Q4,2025,10-49,innovation,PC_ENT_AI_TANY,17.33,1,4
+EU,Q4,2025,10-49,ICT security,PC_ENT_AI_TANY,14.51,1,5
+UK,Q3,2026,GE250,no barrier,PC_ENT,33.6,1,
+UK,Q3,2026,GE250,skills,PC_ENT,14.6,1,1
+UK,Q3,2026,GE250,cost,PC_ENT,11.0,1,2
+UK,Q3,2026,GE250,legal and privacy,PC_ENT,9.1,2,3
+UK,Q3,2026,GE250,no clear use,PC_ENT,8.8,1,4
+UK,Q3,2026,GE250,trust and ethics,PC_ENT,7.9,2,5
+UK,Q3,2026,GE250,technical fit,PC_ENT,2.7,1,6
+EU,Q4,2025,GE250,ICT security,PC_ENT_AI_TANY,47.51,1,1
+EU,Q4,2025,GE250,admin and management,PC_ENT_AI_TANY,43.38,2,2
+EU,Q4,2025,GE250,customers and sales,PC_ENT_AI_TANY,37.89,1,3
+EU,Q4,2025,GE250,operations,PC_ENT_AI_TANY,33.46,2,4
+EU,Q4,2025,GE250,innovation,PC_ENT_AI_TANY,29.67,1,5
+UK,Q4,2026,GE250,operations,PC_ENT_AI_TANY,63.8,1,1
+UK,Q4,2026,GE250,customers and sales,PC_ENT_AI_TANY,18.1,2,2
+UK,Q4,2026,GE250,innovation,PC_ENT_AI_TANY,13.7,1,3
+UK,Q4,2026,10-49,operations,PC_ENT_AI_TANY,56.3,1,1
+UK,Q4,2026,10-49,customers and sales,PC_ENT_AI_TANY,23.5,2,2
+UK,Q4,2026,10-49,innovation,PC_ENT_AI_TANY,16.1,1,3
+EU,Q3,2025,10-49,skills,PC_ENT_AI_EC,70.87,1,1
+EU,Q3,2025,10-49,legal and privacy,PC_ENT_AI_EC,54.79,2,2
+EU,Q3,2025,10-49,data,PC_ENT_AI_EC,43.66,1,3
+EU,Q3,2025,10-49,technical fit,PC_ENT_AI_EC,41.69,1,4
+EU,Q3,2025,10-49,cost,PC_ENT_AI_EC,38.82,1,5
+EU,Q3,2025,10-49,trust and ethics,PC_ENT_AI_EC,25.31,1,6
+EU,Q3,2025,10-49,no clear use,PC_ENT_AI_EC,19.22,1,7
+UK,Q3,2026,10-49,skills,PC_ENT,13.3,1,1
+UK,Q3,2026,10-49,cost,PC_ENT,11.3,1,2
+UK,Q3,2026,10-49,no clear use,PC_ENT,8.7,1,3
+UK,Q3,2026,10-49,trust and ethics,PC_ENT,8.0,2,4
+UK,Q3,2026,10-49,legal and privacy,PC_ENT,6.2,2,5
+UK,Q3,2026,10-49,technical fit,PC_ENT,2.9,1,6
+UK,Q3,2026,10-49,no barrier,PC_ENT,42.0,1,

@@ -1,0 +1,1217 @@
+geo,year,nace_r2,sector_label,ai_use_pct,rank_in_year
+BE,2024,J,Information and communication,64.12,1
+BE,2024,M,Professional and scientific,42.92,2
+BE,2024,S951,Repair of computers,33.33,3
+BE,2024,C,Manufacturing,23.24,4
+BE,2024,H,Transport and storage,23.03,5
+BE,2024,G,Wholesale and retail,22.48,6
+BE,2024,N,Administrative and support,20.99,7
+BE,2024,I,Accommodation and food,15.66,8
+BE,2024,F,Construction,11.08,9
+BG,2023,J,Information and communication,21.4,1
+BG,2023,M,Professional and scientific,9.65,2
+BG,2023,N,Administrative and support,6.16,3
+BG,2023,C,Manufacturing,2.55,4
+BG,2023,G,Wholesale and retail,2.5,5
+BG,2023,H,Transport and storage,1.9,6
+BG,2023,I,Accommodation and food,0.76,7
+BG,2023,L,Real estate,0.0,8
+BG,2025,J,Information and communication,42.01,1
+BG,2025,M,Professional and scientific,26.38,2
+BG,2025,L,Real estate,10.58,3
+BG,2025,N,Administrative and support,7.83,4
+BG,2025,G,Wholesale and retail,7.26,5
+BG,2025,H,Transport and storage,5.71,6
+BG,2025,D,Electricity and gas,5.61,7
+BG,2025,C,Manufacturing,5.25,8
+BG,2025,I,Accommodation and food,3.95,9
+BG,2025,F,Construction,2.99,10
+DE,2023,J,Information and communication,33.05,1
+DE,2023,M,Professional and scientific,26.34,2
+DE,2023,D,Electricity and gas,22.65,3
+DE,2023,L,Real estate,11.4,4
+DE,2023,N,Administrative and support,11.02,5
+DE,2023,G,Wholesale and retail,9.97,6
+DE,2023,C,Manufacturing,9.32,7
+DE,2023,E,Water and waste,8.08,8
+DE,2023,H,Transport and storage,7.05,9
+DE,2023,I,Accommodation and food,5.38,10
+DE,2023,F,Construction,4.48,11
+DE,2025,J,Information and communication,75.38,1
+DE,2025,M,Professional and scientific,48.3,2
+DE,2025,D,Electricity and gas,37.38,3
+DE,2025,L,Real estate,29.06,4
+DE,2025,G,Wholesale and retail,25.46,5
+DE,2025,C,Manufacturing,24.38,6
+DE,2025,N,Administrative and support,22.08,7
+DE,2025,E,Water and waste,16.88,8
+DE,2025,I,Accommodation and food,14.63,9
+DE,2025,F,Construction,14.28,10
+DE,2025,H,Transport and storage,12.22,11
+EL,2023,S951,Repair of computers,36.84,1
+EL,2023,J,Information and communication,17.5,2
+EL,2023,E,Water and waste,9.91,3
+EL,2023,M,Professional and scientific,8.67,4
+EL,2023,L,Real estate,8.08,5
+EL,2023,H,Transport and storage,5.91,6
+EL,2023,D,Electricity and gas,5.55,7
+EL,2023,C,Manufacturing,5.19,8
+EL,2023,N,Administrative and support,4.69,9
+EL,2023,G,Wholesale and retail,4.34,10
+EL,2023,F,Construction,3.4,11
+EL,2023,I,Accommodation and food,1.33,12
+EL,2025,J,Information and communication,43.93,1
+EL,2025,M,Professional and scientific,30.81,2
+EL,2025,D,Electricity and gas,16.5,3
+EL,2025,S951,Repair of computers,16.09,4
+EL,2025,N,Administrative and support,14.79,5
+EL,2025,L,Real estate,12.91,6
+EL,2025,H,Transport and storage,9.56,7
+EL,2025,G,Wholesale and retail,9.49,8
+EL,2025,C,Manufacturing,7.77,9
+EL,2025,F,Construction,6.96,10
+EL,2025,E,Water and waste,6.14,11
+EL,2025,I,Accommodation and food,3.39,12
+LT,2024,J,Information and communication,45.9,1
+LT,2024,M,Professional and scientific,16.15,2
+LT,2024,S951,Repair of computers,14.29,3
+LT,2024,N,Administrative and support,10.06,4
+LT,2024,C,Manufacturing,8.81,5
+LT,2024,G,Wholesale and retail,7.68,6
+LT,2024,E,Water and waste,7.28,7
+LT,2024,L,Real estate,5.58,8
+LT,2024,H,Transport and storage,4.96,9
+LT,2024,I,Accommodation and food,4.22,10
+LT,2024,F,Construction,3.42,11
+SI,2021,D,Electricity and gas,60.29,1
+SI,2021,J,Information and communication,39.65,2
+SI,2021,M,Professional and scientific,18.59,3
+SI,2021,C,Manufacturing,12.57,4
+SI,2021,H,Transport and storage,12.52,5
+SI,2021,G,Wholesale and retail,10.95,6
+SI,2021,N,Administrative and support,9.02,7
+SI,2021,I,Accommodation and food,5.08,8
+SI,2021,F,Construction,4.16,9
+SI,2021,E,Water and waste,3.62,10
+SI,2021,S951,Repair of computers,0.0,11
+SK,2023,J,Information and communication,21.62,1
+SK,2023,M,Professional and scientific,12.22,2
+SK,2023,N,Administrative and support,10.16,3
+SK,2023,D,Electricity and gas,9.98,4
+SK,2023,G,Wholesale and retail,6.96,5
+SK,2023,L,Real estate,6.47,6
+SK,2023,C,Manufacturing,6.07,7
+SK,2023,F,Construction,4.08,8
+SK,2023,H,Transport and storage,3.32,9
+SK,2023,I,Accommodation and food,2.31,10
+SK,2023,E,Water and waste,2.13,11
+SK,2023,S951,Repair of computers,0.0,12
+SK,2025,J,Information and communication,50.25,1
+SK,2025,M,Professional and scientific,28.48,2
+SK,2025,N,Administrative and support,19.79,3
+SK,2025,G,Wholesale and retail,19.26,4
+SK,2025,C,Manufacturing,15.83,5
+SK,2025,H,Transport and storage,15.78,6
+SK,2025,S951,Repair of computers,14.94,7
+SK,2025,D,Electricity and gas,13.22,8
+SK,2025,I,Accommodation and food,9.82,9
+SK,2025,F,Construction,8.59,10
+SK,2025,L,Real estate,8.55,11
+SK,2025,E,Water and waste,8.33,12
+BE,2023,S951,Repair of computers,33.33,1
+BE,2023,M,Professional and scientific,28.28,2
+BE,2023,C,Manufacturing,15.31,3
+BE,2023,H,Transport and storage,14.94,4
+BE,2023,N,Administrative and support,11.04,5
+BE,2023,G,Wholesale and retail,10.25,6
+BE,2023,I,Accommodation and food,7.98,7
+BE,2023,F,Construction,5.17,8
+BE,2023,L,Real estate,4.52,9
+BE,2025,D,Electricity and gas,90.48,1
+BE,2025,J,Information and communication,78.15,2
+BE,2025,S951,Repair of computers,60.0,3
+BE,2025,M,Professional and scientific,57.11,4
+BE,2025,C,Manufacturing,39.8,5
+BE,2025,G,Wholesale and retail,32.84,6
+BE,2025,N,Administrative and support,28.95,7
+BE,2025,H,Transport and storage,22.36,8
+BE,2025,F,Construction,20.25,9
+BE,2025,I,Accommodation and food,18.45,10
+BG,2024,J,Information and communication,33.92,1
+BG,2024,D,Electricity and gas,14.35,2
+BG,2024,M,Professional and scientific,14.17,3
+BG,2024,G,Wholesale and retail,6.13,4
+BG,2024,H,Transport and storage,4.4,5
+BG,2024,C,Manufacturing,4.35,6
+BG,2024,N,Administrative and support,3.9,7
+BG,2024,I,Accommodation and food,2.66,8
+BG,2024,F,Construction,1.6,9
+BG,2024,E,Water and waste,0.0,10
+DE,2024,J,Information and communication,60.52,1
+DE,2024,M,Professional and scientific,42.29,2
+DE,2024,D,Electricity and gas,32.15,3
+DE,2024,L,Real estate,20.98,4
+DE,2024,N,Administrative and support,18.91,5
+DE,2024,G,Wholesale and retail,16.29,6
+DE,2024,C,Manufacturing,16.11,7
+DE,2024,E,Water and waste,11.53,8
+DE,2024,H,Transport and storage,11.48,9
+DE,2024,F,Construction,10.01,10
+DE,2024,I,Accommodation and food,8.26,11
+DK,2021,J,Information and communication,54.75,1
+DK,2021,M,Professional and scientific,39.22,2
+DK,2021,S951,Repair of computers,32.61,3
+DK,2021,D,Electricity and gas,30.02,4
+DK,2021,C,Manufacturing,27.28,5
+DK,2021,E,Water and waste,24.77,6
+DK,2021,G,Wholesale and retail,21.3,7
+DK,2021,H,Transport and storage,21.28,8
+DK,2021,L,Real estate,19.14,9
+DK,2021,N,Administrative and support,19.04,10
+DK,2021,I,Accommodation and food,12.21,11
+DK,2021,F,Construction,8.87,12
+EL,2024,S951,Repair of computers,31.25,1
+EL,2024,J,Information and communication,25.63,2
+EL,2024,M,Professional and scientific,21.02,3
+EL,2024,E,Water and waste,16.08,4
+EL,2024,N,Administrative and support,14.4,5
+EL,2024,D,Electricity and gas,12.95,6
+EL,2024,H,Transport and storage,11.64,7
+EL,2024,G,Wholesale and retail,10.45,8
+EL,2024,L,Real estate,9.3,9
+EL,2024,C,Manufacturing,7.48,10
+EL,2024,I,Accommodation and food,6.24,11
+EL,2024,F,Construction,5.17,12
+FR,2021,J,Information and communication,23.55,1
+FR,2021,D,Electricity and gas,17.77,2
+FR,2021,M,Professional and scientific,15.23,3
+FR,2021,S951,Repair of computers,12.2,4
+FR,2021,E,Water and waste,8.57,5
+FR,2021,N,Administrative and support,7.28,6
+FR,2021,C,Manufacturing,5.33,7
+FR,2021,G,Wholesale and retail,4.71,8
+FR,2021,H,Transport and storage,4.24,9
+FR,2021,F,Construction,4.09,10
+FR,2021,L,Real estate,3.92,11
+FR,2021,I,Accommodation and food,2.47,12
+LT,2023,J,Information and communication,26.68,1
+LT,2023,N,Administrative and support,5.46,2
+LT,2023,H,Transport and storage,4.97,3
+LT,2023,C,Manufacturing,4.83,4
+LT,2023,G,Wholesale and retail,4.39,5
+LT,2023,M,Professional and scientific,4.07,6
+LT,2023,L,Real estate,2.65,7
+LT,2023,F,Construction,2.4,8
+LT,2023,I,Accommodation and food,0.55,9
+LT,2023,S951,Repair of computers,0.0,10
+LT,2025,J,Information and communication,60.24,1
+LT,2025,M,Professional and scientific,37.68,2
+LT,2025,N,Administrative and support,29.75,3
+LT,2025,S951,Repair of computers,22.22,4
+LT,2025,H,Transport and storage,20.02,5
+LT,2025,C,Manufacturing,19.17,6
+LT,2025,G,Wholesale and retail,19.16,7
+LT,2025,L,Real estate,19.03,8
+LT,2025,F,Construction,16.79,9
+LT,2025,I,Accommodation and food,8.0,10
+RO,2021,J,Information and communication,8.8,1
+RO,2021,M,Professional and scientific,6.68,2
+RO,2021,N,Administrative and support,3.04,3
+RO,2021,D,Electricity and gas,1.84,4
+RO,2021,C,Manufacturing,1.28,5
+RO,2021,G,Wholesale and retail,0.6,6
+RO,2021,E,Water and waste,0.59,7
+RO,2021,L,Real estate,0.39,8
+RO,2021,H,Transport and storage,0.31,9
+RO,2021,I,Accommodation and food,0.27,10
+RO,2021,F,Construction,0.05,11
+RO,2021,S951,Repair of computers,0.0,12
+SK,2024,J,Information and communication,29.19,1
+SK,2024,N,Administrative and support,18.37,2
+SK,2024,M,Professional and scientific,17.12,3
+SK,2024,D,Electricity and gas,13.07,4
+SK,2024,G,Wholesale and retail,11.65,5
+SK,2024,S951,Repair of computers,9.09,6
+SK,2024,H,Transport and storage,8.22,7
+SK,2024,C,Manufacturing,8.08,8
+SK,2024,F,Construction,6.31,9
+SK,2024,E,Water and waste,5.38,10
+SK,2024,I,Accommodation and food,3.77,11
+SK,2024,L,Real estate,3.68,12
+AT,2021,J,Information and communication,30.27,1
+AT,2021,M,Professional and scientific,20.93,2
+AT,2021,C,Manufacturing,9.61,3
+AT,2021,H,Transport and storage,6.98,4
+AT,2021,G,Wholesale and retail,6.94,5
+AT,2021,N,Administrative and support,6.48,6
+AT,2021,L,Real estate,5.51,7
+AT,2021,E,Water and waste,5.33,8
+AT,2021,I,Accommodation and food,3.31,9
+AT,2021,F,Construction,3.12,10
+CY,2021,J,Information and communication,18.98,1
+CY,2021,H,Transport and storage,7.14,2
+CY,2021,M,Professional and scientific,4.39,3
+CY,2021,N,Administrative and support,3.1,4
+CY,2021,C,Manufacturing,2.05,5
+CY,2021,G,Wholesale and retail,1.06,6
+CY,2021,I,Accommodation and food,0.45,7
+CY,2021,F,Construction,0.21,8
+CY,2021,L,Real estate,0.0,9
+CY,2021,E,Water and waste,0.0,9
+CY,2021,D,Electricity and gas,0.0,9
+LV,2024,J,Information and communication,37.38,1
+LV,2024,M,Professional and scientific,23.46,2
+LV,2024,D,Electricity and gas,9.63,3
+LV,2024,E,Water and waste,9.02,4
+LV,2024,N,Administrative and support,8.42,5
+LV,2024,C,Manufacturing,8.39,6
+LV,2024,L,Real estate,7.96,7
+LV,2024,G,Wholesale and retail,6.71,8
+LV,2024,F,Construction,5.28,9
+LV,2024,H,Transport and storage,5.19,10
+LV,2024,I,Accommodation and food,1.34,11
+NL,2023,D,Electricity and gas,47.94,1
+NL,2023,J,Information and communication,36.97,2
+NL,2023,M,Professional and scientific,24.8,3
+NL,2023,L,Real estate,21.01,4
+NL,2023,G,Wholesale and retail,12.99,5
+NL,2023,N,Administrative and support,12.19,6
+NL,2023,C,Manufacturing,11.74,7
+NL,2023,E,Water and waste,10.63,8
+NL,2023,S951,Repair of computers,10.0,9
+NL,2023,H,Transport and storage,9.06,10
+NL,2023,I,Accommodation and food,5.91,11
+NL,2023,F,Construction,4.72,12
+NL,2025,J,Information and communication,69.99,1
+NL,2025,M,Professional and scientific,54.98,2
+NL,2025,D,Electricity and gas,54.56,3
+NL,2025,N,Administrative and support,30.85,4
+NL,2025,G,Wholesale and retail,30.47,5
+NL,2025,C,Manufacturing,28.56,6
+NL,2025,E,Water and waste,21.42,7
+NL,2025,F,Construction,21.29,8
+NL,2025,H,Transport and storage,19.65,9
+NL,2025,I,Accommodation and food,16.03,10
+PT,2023,J,Information and communication,29.79,1
+PT,2023,D,Electricity and gas,20.89,2
+PT,2023,M,Professional and scientific,10.68,3
+PT,2023,N,Administrative and support,10.29,4
+PT,2023,S951,Repair of computers,8.82,5
+PT,2023,C,Manufacturing,8.74,6
+PT,2023,H,Transport and storage,8.26,7
+PT,2023,E,Water and waste,7.92,8
+PT,2023,L,Real estate,7.52,9
+PT,2023,G,Wholesale and retail,6.94,10
+PT,2023,I,Accommodation and food,5.26,11
+PT,2023,F,Construction,2.92,12
+PT,2025,J,Information and communication,52.8,1
+PT,2025,M,Professional and scientific,25.68,2
+PT,2025,S951,Repair of computers,23.33,3
+PT,2025,D,Electricity and gas,20.43,4
+PT,2025,H,Transport and storage,14.81,5
+PT,2025,L,Real estate,14.8,6
+PT,2025,E,Water and waste,14.4,7
+PT,2025,N,Administrative and support,11.06,8
+PT,2025,C,Manufacturing,9.94,9
+PT,2025,G,Wholesale and retail,8.71,10
+PT,2025,I,Accommodation and food,8.25,11
+PT,2025,F,Construction,4.74,12
+SE,2023,J,Information and communication,36.85,1
+SE,2023,M,Professional and scientific,20.69,2
+SE,2023,D,Electricity and gas,20.1,3
+SE,2023,L,Real estate,17.75,4
+SE,2023,G,Wholesale and retail,10.79,5
+SE,2023,N,Administrative and support,8.3,6
+SE,2023,E,Water and waste,7.83,7
+SE,2023,C,Manufacturing,7.47,8
+SE,2023,S951,Repair of computers,6.67,9
+SE,2023,H,Transport and storage,4.74,10
+SE,2023,I,Accommodation and food,3.18,11
+SE,2023,F,Construction,2.78,12
+SE,2025,J,Information and communication,87.87,1
+SE,2025,M,Professional and scientific,64.88,2
+SE,2025,L,Real estate,56.44,3
+SE,2025,D,Electricity and gas,53.4,4
+SE,2025,S951,Repair of computers,43.06,5
+SE,2025,E,Water and waste,36.16,6
+SE,2025,G,Wholesale and retail,33.13,7
+SE,2025,C,Manufacturing,32.86,8
+SE,2025,N,Administrative and support,31.61,9
+SE,2025,I,Accommodation and food,23.74,10
+SE,2025,F,Construction,14.9,11
+SE,2025,H,Transport and storage,12.17,12
+LV,2023,J,Information and communication,20.93,1
+LV,2023,M,Professional and scientific,11.37,2
+LV,2023,D,Electricity and gas,8.36,3
+LV,2023,N,Administrative and support,6.6,4
+LV,2023,L,Real estate,5.85,5
+LV,2023,C,Manufacturing,4.14,6
+LV,2023,H,Transport and storage,4.1,7
+LV,2023,G,Wholesale and retail,2.41,8
+LV,2023,F,Construction,1.51,9
+LV,2023,I,Accommodation and food,1.01,10
+LV,2023,E,Water and waste,0.0,11
+LV,2025,J,Information and communication,49.82,1
+LV,2025,M,Professional and scientific,29.02,2
+LV,2025,D,Electricity and gas,15.54,3
+LV,2025,C,Manufacturing,12.35,4
+LV,2025,N,Administrative and support,12.33,5
+LV,2025,E,Water and waste,11.84,6
+LV,2025,L,Real estate,11.45,7
+LV,2025,G,Wholesale and retail,10.37,8
+LV,2025,H,Transport and storage,5.9,9
+LV,2025,F,Construction,4.89,10
+LV,2025,I,Accommodation and food,4.46,11
+LV,2025,S951,Repair of computers,0.0,12
+MT,2021,J,Information and communication,25.35,1
+MT,2021,H,Transport and storage,15.0,2
+MT,2021,L,Real estate,14.72,3
+MT,2021,N,Administrative and support,8.64,4
+MT,2021,I,Accommodation and food,7.88,5
+MT,2021,F,Construction,7.62,6
+MT,2021,G,Wholesale and retail,7.12,7
+MT,2021,C,Manufacturing,6.23,8
+NL,2024,J,Information and communication,58.03,1
+NL,2024,D,Electricity and gas,46.84,2
+NL,2024,M,Professional and scientific,39.78,3
+NL,2024,L,Real estate,27.96,4
+NL,2024,G,Wholesale and retail,23.15,5
+NL,2024,N,Administrative and support,22.57,6
+NL,2024,C,Manufacturing,18.03,7
+NL,2024,S951,Repair of computers,15.38,8
+NL,2024,E,Water and waste,14.81,9
+NL,2024,H,Transport and storage,10.99,10
+NL,2024,I,Accommodation and food,9.04,11
+NL,2024,F,Construction,8.88,12
+PT,2024,J,Information and communication,52.45,1
+PT,2024,D,Electricity and gas,23.42,2
+PT,2024,S951,Repair of computers,21.94,3
+PT,2024,N,Administrative and support,12.91,4
+PT,2024,E,Water and waste,8.43,5
+PT,2024,C,Manufacturing,6.78,6
+PT,2024,I,Accommodation and food,6.58,7
+PT,2024,G,Wholesale and retail,5.77,8
+PT,2024,H,Transport and storage,4.9,9
+PT,2024,F,Construction,2.74,10
+SE,2024,J,Information and communication,67.56,1
+SE,2024,M,Professional and scientific,53.71,2
+SE,2024,D,Electricity and gas,40.71,3
+SE,2024,L,Real estate,28.97,4
+SE,2024,G,Wholesale and retail,22.47,5
+SE,2024,N,Administrative and support,21.63,6
+SE,2024,E,Water and waste,20.32,7
+SE,2024,C,Manufacturing,19.49,8
+SE,2024,H,Transport and storage,15.54,9
+SE,2024,F,Construction,13.15,10
+SE,2024,I,Accommodation and food,10.47,11
+AT,2024,J,Information and communication,60.74,1
+AT,2024,M,Professional and scientific,39.59,2
+AT,2024,L,Real estate,24.54,3
+AT,2024,C,Manufacturing,22.71,4
+AT,2024,N,Administrative and support,19.57,5
+AT,2024,E,Water and waste,17.77,6
+AT,2024,I,Accommodation and food,15.87,7
+AT,2024,G,Wholesale and retail,15.67,8
+AT,2024,H,Transport and storage,13.48,9
+AT,2024,F,Construction,7.35,10
+CY,2024,D,Electricity and gas,100.0,1
+CY,2024,S951,Repair of computers,66.67,2
+CY,2024,J,Information and communication,41.39,3
+CY,2024,M,Professional and scientific,14.84,4
+CY,2024,N,Administrative and support,9.37,5
+CY,2024,H,Transport and storage,7.28,6
+CY,2024,L,Real estate,4.2,7
+CY,2024,G,Wholesale and retail,4.1,8
+CY,2024,I,Accommodation and food,3.53,9
+CY,2024,C,Manufacturing,2.98,10
+CY,2024,F,Construction,2.39,11
+CY,2024,E,Water and waste,0.0,12
+LV,2021,J,Information and communication,13.71,1
+LV,2021,M,Professional and scientific,9.28,2
+LV,2021,N,Administrative and support,4.01,3
+LV,2021,H,Transport and storage,3.45,4
+LV,2021,F,Construction,3.32,5
+LV,2021,G,Wholesale and retail,3.05,6
+LV,2021,D,Electricity and gas,2.88,7
+LV,2021,L,Real estate,2.7,8
+LV,2021,C,Manufacturing,2.61,9
+LV,2021,E,Water and waste,2.48,10
+LV,2021,I,Accommodation and food,0.28,11
+LV,2021,S951,Repair of computers,0.0,12
+MT,2023,J,Information and communication,35.29,1
+MT,2023,M,Professional and scientific,18.09,2
+MT,2023,H,Transport and storage,16.45,3
+MT,2023,N,Administrative and support,12.39,4
+MT,2023,L,Real estate,11.76,5
+MT,2023,C,Manufacturing,10.06,6
+MT,2023,G,Wholesale and retail,9.44,7
+MT,2023,F,Construction,9.05,8
+MT,2023,I,Accommodation and food,7.55,9
+MT,2025,J,Information and communication,60.4,1
+MT,2025,D,Electricity and gas,50.0,2
+MT,2025,M,Professional and scientific,35.43,3
+MT,2025,E,Water and waste,30.0,4
+MT,2025,N,Administrative and support,23.2,5
+MT,2025,L,Real estate,19.79,6
+MT,2025,H,Transport and storage,18.55,7
+MT,2025,C,Manufacturing,17.57,8
+MT,2025,G,Wholesale and retail,14.75,9
+MT,2025,F,Construction,10.61,10
+MT,2025,I,Accommodation and food,10.34,11
+AT,2023,J,Information and communication,37.05,1
+AT,2023,D,Electricity and gas,29.51,2
+AT,2023,M,Professional and scientific,25.82,3
+AT,2023,C,Manufacturing,12.31,4
+AT,2023,L,Real estate,10.02,5
+AT,2023,G,Wholesale and retail,8.35,6
+AT,2023,H,Transport and storage,8.31,7
+AT,2023,N,Administrative and support,7.78,8
+AT,2023,E,Water and waste,7.16,9
+AT,2023,F,Construction,4.28,10
+AT,2023,I,Accommodation and food,3.63,11
+AT,2025,J,Information and communication,79.93,1
+AT,2025,M,Professional and scientific,52.8,2
+AT,2025,C,Manufacturing,32.54,3
+AT,2025,G,Wholesale and retail,26.46,4
+AT,2025,N,Administrative and support,25.72,5
+AT,2025,I,Accommodation and food,23.72,6
+AT,2025,H,Transport and storage,19.37,7
+AT,2025,F,Construction,14.89,8
+CY,2023,J,Information and communication,25.95,1
+CY,2023,N,Administrative and support,9.03,2
+CY,2023,M,Professional and scientific,7.66,3
+CY,2023,H,Transport and storage,7.01,4
+CY,2023,L,Real estate,3.91,5
+CY,2023,C,Manufacturing,3.81,6
+CY,2023,E,Water and waste,2.24,7
+CY,2023,G,Wholesale and retail,2.1,8
+CY,2023,F,Construction,1.31,9
+CY,2023,I,Accommodation and food,1.22,10
+CY,2025,J,Information and communication,46.61,1
+CY,2025,S951,Repair of computers,33.33,2
+CY,2025,M,Professional and scientific,14.14,3
+CY,2025,N,Administrative and support,10.95,4
+CY,2025,L,Real estate,8.95,5
+CY,2025,H,Transport and storage,5.52,6
+CY,2025,I,Accommodation and food,4.56,7
+CY,2025,G,Wholesale and retail,4.38,8
+CY,2025,F,Construction,4.31,9
+CY,2025,C,Manufacturing,4.26,10
+CY,2025,E,Water and waste,3.94,11
+MT,2024,J,Information and communication,55.07,1
+MT,2024,M,Professional and scientific,25.24,2
+MT,2024,H,Transport and storage,20.63,3
+MT,2024,N,Administrative and support,17.05,4
+MT,2024,C,Manufacturing,13.66,5
+MT,2024,L,Real estate,12.48,6
+MT,2024,G,Wholesale and retail,10.21,7
+MT,2024,I,Accommodation and food,9.8,8
+MT,2024,F,Construction,9.36,9
+NL,2021,S951,Repair of computers,32.36,1
+NL,2021,J,Information and communication,32.05,2
+NL,2021,D,Electricity and gas,24.78,3
+NL,2021,M,Professional and scientific,20.05,4
+NL,2021,L,Real estate,16.76,5
+NL,2021,C,Manufacturing,12.42,6
+NL,2021,G,Wholesale and retail,12.04,7
+NL,2021,H,Transport and storage,11.48,8
+NL,2021,E,Water and waste,11.46,9
+NL,2021,N,Administrative and support,10.6,10
+NL,2021,F,Construction,7.39,11
+NL,2021,I,Accommodation and food,4.96,12
+PT,2021,D,Electricity and gas,20.37,1
+PT,2021,N,Administrative and support,10.81,2
+PT,2021,M,Professional and scientific,10.38,3
+PT,2021,E,Water and waste,9.51,4
+PT,2021,C,Manufacturing,8.58,5
+PT,2021,S951,Repair of computers,7.58,6
+PT,2021,H,Transport and storage,7.38,7
+PT,2021,G,Wholesale and retail,6.63,8
+PT,2021,I,Accommodation and food,4.4,9
+PT,2021,L,Real estate,3.58,10
+PT,2021,F,Construction,1.06,11
+SE,2021,J,Information and communication,30.81,1
+SE,2021,D,Electricity and gas,25.06,2
+SE,2021,M,Professional and scientific,16.47,3
+SE,2021,G,Wholesale and retail,11.84,4
+SE,2021,L,Real estate,9.6,5
+SE,2021,E,Water and waste,9.58,6
+SE,2021,C,Manufacturing,8.87,7
+SE,2021,N,Administrative and support,8.58,8
+SE,2021,S951,Repair of computers,6.67,9
+SE,2021,I,Accommodation and food,4.2,10
+SE,2021,H,Transport and storage,3.71,11
+SE,2021,F,Construction,2.32,12
+BE,2021,J,Information and communication,34.76,1
+BE,2021,M,Professional and scientific,20.24,2
+BE,2021,C,Manufacturing,10.42,3
+BE,2021,E,Water and waste,8.83,4
+BE,2021,N,Administrative and support,8.7,5
+BE,2021,F,Construction,8.3,6
+BE,2021,G,Wholesale and retail,8.08,7
+BE,2021,H,Transport and storage,5.69,8
+BE,2021,L,Real estate,3.3,9
+BE,2021,I,Accommodation and food,1.43,10
+BE,2021,S951,Repair of computers,0.0,11
+DK,2023,J,Information and communication,44.31,1
+DK,2023,D,Electricity and gas,37.12,2
+DK,2023,E,Water and waste,23.66,3
+DK,2023,M,Professional and scientific,23.58,4
+DK,2023,S951,Repair of computers,22.96,5
+DK,2023,H,Transport and storage,15.16,6
+DK,2023,C,Manufacturing,14.8,7
+DK,2023,G,Wholesale and retail,14.17,8
+DK,2023,L,Real estate,13.77,9
+DK,2023,N,Administrative and support,9.32,10
+DK,2023,I,Accommodation and food,6.6,11
+DK,2023,F,Construction,3.23,12
+DK,2025,J,Information and communication,79.08,1
+DK,2025,M,Professional and scientific,63.71,2
+DK,2025,G,Wholesale and retail,44.8,3
+DK,2025,S951,Repair of computers,44.04,4
+DK,2025,C,Manufacturing,38.55,5
+DK,2025,N,Administrative and support,33.06,6
+DK,2025,H,Transport and storage,26.9,7
+DK,2025,I,Accommodation and food,25.2,8
+DK,2025,F,Construction,23.93,9
+FR,2023,J,Information and communication,29.56,1
+FR,2023,D,Electricity and gas,15.96,2
+FR,2023,M,Professional and scientific,13.75,3
+FR,2023,L,Real estate,7.02,4
+FR,2023,S951,Repair of computers,5.89,5
+FR,2023,N,Administrative and support,5.6,6
+FR,2023,C,Manufacturing,4.87,7
+FR,2023,G,Wholesale and retail,4.07,8
+FR,2023,E,Water and waste,2.95,9
+FR,2023,I,Accommodation and food,2.47,10
+FR,2023,H,Transport and storage,2.35,11
+FR,2023,F,Construction,2.09,12
+FR,2025,J,Information and communication,58.98,1
+FR,2025,M,Professional and scientific,32.5,2
+FR,2025,S951,Repair of computers,29.45,3
+FR,2025,L,Real estate,26.25,4
+FR,2025,N,Administrative and support,19.32,5
+FR,2025,C,Manufacturing,16.93,6
+FR,2025,E,Water and waste,13.04,7
+FR,2025,G,Wholesale and retail,12.9,8
+FR,2025,I,Accommodation and food,11.83,9
+FR,2025,F,Construction,9.52,10
+FR,2025,H,Transport and storage,8.96,11
+LT,2021,J,Information and communication,22.77,1
+LT,2021,M,Professional and scientific,7.22,2
+LT,2021,N,Administrative and support,6.35,3
+LT,2021,C,Manufacturing,5.06,4
+LT,2021,H,Transport and storage,3.84,5
+LT,2021,I,Accommodation and food,3.8,6
+LT,2021,G,Wholesale and retail,2.79,7
+LT,2021,L,Real estate,1.3,8
+LT,2021,F,Construction,1.11,9
+LT,2021,S951,Repair of computers,0.0,10
+RO,2023,J,Information and communication,8.12,1
+RO,2023,M,Professional and scientific,7.21,2
+RO,2023,D,Electricity and gas,5.61,3
+RO,2023,N,Administrative and support,1.57,4
+RO,2023,C,Manufacturing,1.34,5
+RO,2023,G,Wholesale and retail,1.29,6
+RO,2023,E,Water and waste,0.58,7
+RO,2023,H,Transport and storage,0.36,8
+RO,2023,F,Construction,0.13,9
+RO,2023,I,Accommodation and food,0.06,10
+RO,2023,L,Real estate,0.0,11
+RO,2023,S951,Repair of computers,0.0,11
+RO,2025,J,Information and communication,32.07,1
+RO,2025,M,Professional and scientific,15.6,2
+RO,2025,S951,Repair of computers,8.13,3
+RO,2025,D,Electricity and gas,6.47,4
+RO,2025,N,Administrative and support,5.04,5
+RO,2025,G,Wholesale and retail,4.13,6
+RO,2025,E,Water and waste,3.24,7
+RO,2025,C,Manufacturing,3.24,7
+RO,2025,H,Transport and storage,3.07,9
+RO,2025,F,Construction,2.65,10
+RO,2025,I,Accommodation and food,1.71,11
+RO,2025,L,Real estate,0.58,12
+SI,2024,J,Information and communication,52.94,1
+SI,2024,M,Professional and scientific,30.37,2
+SI,2024,G,Wholesale and retail,23.46,3
+SI,2024,C,Manufacturing,21.64,4
+SI,2024,S951,Repair of computers,19.22,5
+SI,2024,H,Transport and storage,18.97,6
+SI,2024,I,Accommodation and food,16.85,7
+SI,2024,F,Construction,11.94,8
+SI,2024,L,Real estate,8.17,9
+SI,2024,E,Water and waste,7.76,10
+SI,2024,N,Administrative and support,7.65,11
+BG,2021,J,Information and communication,20.82,1
+BG,2021,M,Professional and scientific,3.68,2
+BG,2021,C,Manufacturing,2.88,3
+BG,2021,N,Administrative and support,2.88,3
+BG,2021,G,Wholesale and retail,2.47,5
+BG,2021,H,Transport and storage,1.92,6
+BG,2021,F,Construction,1.47,7
+BG,2021,S951,Repair of computers,0.0,8
+DE,2021,J,Information and communication,28.8,1
+DE,2021,M,Professional and scientific,25.54,2
+DE,2021,D,Electricity and gas,24.08,3
+DE,2021,L,Real estate,11.15,4
+DE,2021,C,Manufacturing,9.19,5
+DE,2021,F,Construction,8.29,6
+DE,2021,G,Wholesale and retail,7.95,7
+DE,2021,E,Water and waste,7.2,8
+DE,2021,N,Administrative and support,6.85,9
+DE,2021,H,Transport and storage,6.14,10
+DE,2021,I,Accommodation and food,3.88,11
+DK,2024,J,Information and communication,68.3,1
+DK,2024,D,Electricity and gas,48.36,2
+DK,2024,M,Professional and scientific,44.9,3
+DK,2024,S951,Repair of computers,36.36,4
+DK,2024,L,Real estate,29.41,5
+DK,2024,N,Administrative and support,27.84,6
+DK,2024,G,Wholesale and retail,27.34,7
+DK,2024,C,Manufacturing,21.75,8
+DK,2024,H,Transport and storage,21.1,9
+DK,2024,E,Water and waste,20.48,10
+DK,2024,F,Construction,11.7,11
+DK,2024,I,Accommodation and food,10.79,12
+EL,2021,D,Electricity and gas,27.89,1
+EL,2021,J,Information and communication,11.16,2
+EL,2021,M,Professional and scientific,9.2,3
+EL,2021,H,Transport and storage,5.43,4
+EL,2021,C,Manufacturing,5.35,5
+EL,2021,E,Water and waste,3.92,6
+EL,2021,F,Construction,2.82,7
+EL,2021,G,Wholesale and retail,1.88,8
+EL,2021,N,Administrative and support,1.84,9
+EL,2021,L,Real estate,0.82,10
+EL,2021,I,Accommodation and food,0.12,11
+EL,2021,S951,Repair of computers,0.0,12
+FR,2024,J,Information and communication,41.76,1
+FR,2024,D,Electricity and gas,18.77,2
+FR,2024,M,Professional and scientific,17.47,3
+FR,2024,S951,Repair of computers,17.32,4
+FR,2024,L,Real estate,14.3,5
+FR,2024,N,Administrative and support,11.25,6
+FR,2024,G,Wholesale and retail,9.77,7
+FR,2024,C,Manufacturing,7.43,8
+FR,2024,E,Water and waste,7.16,9
+FR,2024,H,Transport and storage,5.28,10
+FR,2024,I,Accommodation and food,5.09,11
+FR,2024,F,Construction,3.14,12
+RO,2024,J,Information and communication,15.69,1
+RO,2024,M,Professional and scientific,9.06,2
+RO,2024,N,Administrative and support,5.3,3
+RO,2024,D,Electricity and gas,4.22,4
+RO,2024,L,Real estate,3.81,5
+RO,2024,G,Wholesale and retail,3.63,6
+RO,2024,S951,Repair of computers,3.08,7
+RO,2024,H,Transport and storage,2.73,8
+RO,2024,E,Water and waste,2.17,9
+RO,2024,C,Manufacturing,1.3,10
+RO,2024,F,Construction,0.18,11
+RO,2024,I,Accommodation and food,0.08,12
+SI,2023,D,Electricity and gas,84.69,1
+SI,2023,J,Information and communication,32.48,2
+SI,2023,M,Professional and scientific,22.24,3
+SI,2023,G,Wholesale and retail,14.49,4
+SI,2023,C,Manufacturing,12.34,5
+SI,2023,L,Real estate,10.39,6
+SI,2023,H,Transport and storage,7.5,7
+SI,2023,I,Accommodation and food,6.53,8
+SI,2023,F,Construction,3.5,9
+SI,2023,N,Administrative and support,3.22,10
+SI,2023,E,Water and waste,0.0,11
+SI,2025,D,Electricity and gas,75.86,1
+SI,2025,J,Information and communication,67.06,2
+SI,2025,G,Wholesale and retail,29.81,3
+SI,2025,M,Professional and scientific,28.29,4
+SI,2025,E,Water and waste,27.17,5
+SI,2025,L,Real estate,23.15,6
+SI,2025,C,Manufacturing,22.68,7
+SI,2025,N,Administrative and support,20.2,8
+SI,2025,I,Accommodation and food,12.62,9
+SI,2025,H,Transport and storage,8.51,10
+SI,2025,F,Construction,5.55,11
+SK,2021,J,Information and communication,18.19,1
+SK,2021,N,Administrative and support,8.6,2
+SK,2021,D,Electricity and gas,6.63,3
+SK,2021,H,Transport and storage,6.23,4
+SK,2021,C,Manufacturing,5.4,5
+SK,2021,G,Wholesale and retail,4.88,6
+SK,2021,M,Professional and scientific,3.67,7
+SK,2021,E,Water and waste,2.66,8
+SK,2021,F,Construction,2.12,9
+SK,2021,I,Accommodation and food,1.25,10
+SK,2021,L,Real estate,0.76,11
+SK,2021,S951,Repair of computers,0.0,12
+ES,2024,J,Information and communication,46.57,1
+ES,2024,M,Professional and scientific,26.07,2
+ES,2024,L,Real estate,11.67,3
+ES,2024,C,Manufacturing,9.81,4
+ES,2024,G,Wholesale and retail,9.58,5
+ES,2024,E,Water and waste,9.0,6
+ES,2024,N,Administrative and support,8.82,7
+ES,2024,H,Transport and storage,8.59,8
+ES,2024,F,Construction,4.43,9
+ES,2024,S951,Repair of computers,3.76,10
+ES,2024,I,Accommodation and food,3.52,11
+EU27_2020,2023,J,Information and communication,29.53,1
+EU27_2020,2023,M,Professional and scientific,18.66,2
+EU27_2020,2023,D,Electricity and gas,18.43,3
+EU27_2020,2023,L,Real estate,8.5,4
+EU27_2020,2023,N,Administrative and support,8.33,5
+EU27_2020,2023,S951,Repair of computers,6.83,6
+EU27_2020,2023,C,Manufacturing,6.79,7
+EU27_2020,2023,G,Wholesale and retail,6.74,8
+EU27_2020,2023,E,Water and waste,5.65,9
+EU27_2020,2023,H,Transport and storage,5.26,10
+EU27_2020,2023,I,Accommodation and food,3.81,11
+EU27_2020,2023,F,Construction,3.2,12
+EU27_2020,2025,J,Information and communication,62.52,1
+EU27_2020,2025,M,Professional and scientific,40.43,2
+EU27_2020,2025,D,Electricity and gas,33.57,3
+EU27_2020,2025,L,Real estate,24.76,4
+EU27_2020,2025,S951,Repair of computers,24.5,5
+EU27_2020,2025,N,Administrative and support,19.86,6
+EU27_2020,2025,G,Wholesale and retail,18.62,7
+EU27_2020,2025,C,Manufacturing,17.27,8
+EU27_2020,2025,E,Water and waste,13.12,9
+EU27_2020,2025,I,Accommodation and food,11.98,10
+EU27_2020,2025,H,Transport and storage,11.15,11
+EU27_2020,2025,F,Construction,10.79,12
+IE,2021,J,Information and communication,32.4,1
+IE,2021,D,Electricity and gas,25.0,2
+IE,2021,M,Professional and scientific,13.59,3
+IE,2021,N,Administrative and support,12.22,4
+IE,2021,L,Real estate,11.65,5
+IE,2021,S951,Repair of computers,10.0,6
+IE,2021,C,Manufacturing,8.83,7
+IE,2021,G,Wholesale and retail,5.12,8
+IE,2021,H,Transport and storage,4.98,9
+IE,2021,I,Accommodation and food,4.27,10
+IE,2021,E,Water and waste,1.79,11
+IE,2021,F,Construction,0.27,12
+HR,2024,J,Information and communication,56.93,1
+HR,2024,S951,Repair of computers,34.6,2
+HR,2024,N,Administrative and support,21.63,3
+HR,2024,M,Professional and scientific,17.22,4
+HR,2024,L,Real estate,11.65,5
+HR,2024,G,Wholesale and retail,10.17,6
+HR,2024,C,Manufacturing,9.71,7
+HR,2024,E,Water and waste,7.93,8
+HR,2024,H,Transport and storage,7.83,9
+HR,2024,I,Accommodation and food,6.38,10
+HR,2024,F,Construction,4.39,11
+HU,2024,J,Information and communication,32.88,1
+HU,2024,M,Professional and scientific,17.3,2
+HU,2024,S951,Repair of computers,10.19,3
+HU,2024,E,Water and waste,6.94,4
+HU,2024,G,Wholesale and retail,6.84,5
+HU,2024,D,Electricity and gas,6.41,6
+HU,2024,N,Administrative and support,5.63,7
+HU,2024,C,Manufacturing,4.83,8
+HU,2024,I,Accommodation and food,4.53,9
+HU,2024,F,Construction,4.27,10
+HU,2024,L,Real estate,4.16,11
+HU,2024,H,Transport and storage,3.95,12
+CZ,2024,J,Information and communication,46.49,1
+CZ,2024,M,Professional and scientific,22.09,2
+CZ,2024,S951,Repair of computers,14.02,3
+CZ,2024,L,Real estate,13.74,4
+CZ,2024,G,Wholesale and retail,12.72,5
+CZ,2024,D,Electricity and gas,10.79,6
+CZ,2024,C,Manufacturing,9.55,7
+CZ,2024,N,Administrative and support,9.45,8
+CZ,2024,H,Transport and storage,5.65,9
+CZ,2024,I,Accommodation and food,4.24,10
+CZ,2024,E,Water and waste,4.12,11
+CZ,2024,F,Construction,2.35,12
+PL,2024,J,Information and communication,32.63,1
+PL,2024,S951,Repair of computers,18.64,2
+PL,2024,M,Professional and scientific,14.45,3
+PL,2024,D,Electricity and gas,8.44,4
+PL,2024,N,Administrative and support,7.72,5
+PL,2024,G,Wholesale and retail,5.54,6
+PL,2024,C,Manufacturing,5.13,7
+PL,2024,L,Real estate,4.02,8
+PL,2024,E,Water and waste,2.53,9
+PL,2024,H,Transport and storage,2.46,10
+PL,2024,I,Accommodation and food,2.43,11
+PL,2024,F,Construction,2.01,12
+CZ,2021,J,Information and communication,21.22,1
+CZ,2021,M,Professional and scientific,9.28,2
+CZ,2021,D,Electricity and gas,6.59,3
+CZ,2021,S951,Repair of computers,4.7,4
+CZ,2021,L,Real estate,4.51,5
+CZ,2021,G,Wholesale and retail,4.21,6
+CZ,2021,C,Manufacturing,4.19,7
+CZ,2021,H,Transport and storage,3.34,8
+CZ,2021,N,Administrative and support,3.1,9
+CZ,2021,E,Water and waste,2.87,10
+CZ,2021,I,Accommodation and food,0.93,11
+CZ,2021,F,Construction,0.35,12
+HR,2023,J,Information and communication,40.01,1
+HR,2023,M,Professional and scientific,12.88,2
+HR,2023,D,Electricity and gas,10.42,3
+HR,2023,H,Transport and storage,7.58,4
+HR,2023,L,Real estate,6.93,5
+HR,2023,N,Administrative and support,6.85,6
+HR,2023,C,Manufacturing,6.7,7
+HR,2023,I,Accommodation and food,5.8,8
+HR,2023,G,Wholesale and retail,5.37,9
+HR,2023,E,Water and waste,5.0,10
+HR,2023,F,Construction,3.06,11
+HR,2025,J,Information and communication,68.98,1
+HR,2025,M,Professional and scientific,35.28,2
+HR,2025,L,Real estate,27.47,3
+HR,2025,S951,Repair of computers,22.38,4
+HR,2025,G,Wholesale and retail,16.6,5
+HR,2025,N,Administrative and support,16.43,6
+HR,2025,C,Manufacturing,12.9,7
+HR,2025,I,Accommodation and food,6.16,8
+HR,2025,H,Transport and storage,4.83,9
+HR,2025,E,Water and waste,3.46,10
+HR,2025,F,Construction,3.45,11
+HU,2023,J,Information and communication,14.54,1
+HU,2023,M,Professional and scientific,5.24,2
+HU,2023,E,Water and waste,4.78,3
+HU,2023,D,Electricity and gas,4.57,4
+HU,2023,C,Manufacturing,4.24,5
+HU,2023,L,Real estate,3.38,6
+HU,2023,G,Wholesale and retail,3.02,7
+HU,2023,N,Administrative and support,2.89,8
+HU,2023,I,Accommodation and food,2.46,9
+HU,2023,S951,Repair of computers,2.38,10
+HU,2023,H,Transport and storage,2.23,11
+HU,2023,F,Construction,1.8,12
+HU,2025,J,Information and communication,46.05,1
+HU,2025,M,Professional and scientific,22.86,2
+HU,2025,D,Electricity and gas,19.91,3
+HU,2025,S951,Repair of computers,10.93,4
+HU,2025,E,Water and waste,10.87,5
+HU,2025,G,Wholesale and retail,9.79,6
+HU,2025,N,Administrative and support,8.68,7
+HU,2025,C,Manufacturing,7.78,8
+HU,2025,H,Transport and storage,5.86,9
+HU,2025,I,Accommodation and food,5.2,10
+HU,2025,L,Real estate,4.69,11
+HU,2025,F,Construction,4.53,12
+PL,2021,J,Information and communication,16.35,1
+PL,2021,M,Professional and scientific,6.48,2
+PL,2021,S951,Repair of computers,4.86,3
+PL,2021,D,Electricity and gas,4.75,4
+PL,2021,N,Administrative and support,4.16,5
+PL,2021,G,Wholesale and retail,3.1,6
+PL,2021,C,Manufacturing,2.33,7
+PL,2021,H,Transport and storage,1.85,8
+PL,2021,L,Real estate,1.76,9
+PL,2021,I,Accommodation and food,0.99,10
+PL,2021,E,Water and waste,0.84,11
+PL,2021,F,Construction,0.35,12
+EE,2024,J,Information and communication,44.28,1
+EE,2024,M,Professional and scientific,36.43,2
+EE,2024,D,Electricity and gas,24.68,3
+EE,2024,N,Administrative and support,20.33,4
+EE,2024,G,Wholesale and retail,10.49,5
+EE,2024,H,Transport and storage,10.13,6
+EE,2024,C,Manufacturing,9.77,7
+EE,2024,L,Real estate,9.71,8
+EE,2024,F,Construction,8.05,9
+EE,2024,I,Accommodation and food,6.1,10
+EE,2024,E,Water and waste,2.86,11
+EU27_2020,2021,J,Information and communication,25.37,1
+EU27_2020,2021,D,Electricity and gas,17.66,2
+EU27_2020,2021,M,Professional and scientific,17.39,3
+EU27_2020,2021,S951,Repair of computers,8.88,4
+EU27_2020,2021,N,Administrative and support,7.19,5
+EU27_2020,2021,L,Real estate,7.11,6
+EU27_2020,2021,C,Manufacturing,6.93,7
+EU27_2020,2021,G,Wholesale and retail,6.18,8
+EU27_2020,2021,E,Water and waste,6.11,9
+EU27_2020,2021,H,Transport and storage,5.22,10
+EU27_2020,2021,F,Construction,4.62,11
+EU27_2020,2021,I,Accommodation and food,3.27,12
+FI,2024,J,Information and communication,66.43,1
+FI,2024,M,Professional and scientific,48.46,2
+FI,2024,L,Real estate,32.85,3
+FI,2024,N,Administrative and support,24.78,4
+FI,2024,G,Wholesale and retail,21.65,5
+FI,2024,C,Manufacturing,20.75,6
+FI,2024,F,Construction,11.26,7
+FI,2024,I,Accommodation and food,10.83,8
+FI,2024,H,Transport and storage,6.95,9
+IE,2023,D,Electricity and gas,38.86,1
+IE,2023,J,Information and communication,28.52,2
+IE,2023,L,Real estate,16.74,3
+IE,2023,M,Professional and scientific,15.77,4
+IE,2023,C,Manufacturing,7.18,5
+IE,2023,N,Administrative and support,6.59,6
+IE,2023,H,Transport and storage,6.07,7
+IE,2023,F,Construction,5.92,8
+IE,2023,E,Water and waste,5.79,9
+IE,2023,G,Wholesale and retail,4.99,10
+IE,2023,I,Accommodation and food,2.68,11
+IE,2023,S951,Repair of computers,0.0,12
+IE,2025,J,Information and communication,59.82,1
+IE,2025,S951,Repair of computers,42.86,2
+IE,2025,D,Electricity and gas,35.05,3
+IE,2025,M,Professional and scientific,31.76,4
+IE,2025,N,Administrative and support,25.61,5
+IE,2025,L,Real estate,18.53,6
+IE,2025,C,Manufacturing,17.66,7
+IE,2025,H,Transport and storage,16.76,8
+IE,2025,I,Accommodation and food,13.55,9
+IE,2025,G,Wholesale and retail,13.13,10
+IE,2025,F,Construction,9.2,11
+IE,2025,E,Water and waste,6.01,12
+IT,2024,J,Information and communication,34.6,1
+IT,2024,M,Professional and scientific,19.56,2
+IT,2024,G,Wholesale and retail,8.22,3
+IT,2024,C,Manufacturing,8.03,4
+IT,2024,N,Administrative and support,7.72,5
+IT,2024,L,Real estate,6.2,6
+IT,2024,F,Construction,5.24,7
+IT,2024,H,Transport and storage,5.24,7
+IT,2024,I,Accommodation and food,2.73,9
+LU,2024,J,Information and communication,48.69,1
+LU,2024,M,Professional and scientific,37.49,2
+LU,2024,C,Manufacturing,27.13,3
+LU,2024,N,Administrative and support,25.64,4
+LU,2024,G,Wholesale and retail,20.16,5
+LU,2024,F,Construction,19.08,6
+LU,2024,H,Transport and storage,14.54,7
+LU,2024,I,Accommodation and food,6.83,8
+EE,2021,J,Information and communication,11.51,1
+EE,2021,M,Professional and scientific,8.51,2
+EE,2021,D,Electricity and gas,8.29,3
+EE,2021,C,Manufacturing,2.72,4
+EE,2021,N,Administrative and support,2.63,5
+EE,2021,H,Transport and storage,2.36,6
+EE,2021,G,Wholesale and retail,2.07,7
+EE,2021,F,Construction,0.64,8
+EE,2021,I,Accommodation and food,0.19,9
+EE,2021,L,Real estate,0.0,10
+EE,2021,E,Water and waste,0.0,10
+ES,2023,J,Information and communication,32.43,1
+ES,2023,M,Professional and scientific,16.14,2
+ES,2023,L,Real estate,9.35,3
+ES,2023,N,Administrative and support,8.97,4
+ES,2023,C,Manufacturing,8.68,5
+ES,2023,H,Transport and storage,7.04,6
+ES,2023,G,Wholesale and retail,6.79,7
+ES,2023,I,Accommodation and food,6.38,8
+ES,2023,F,Construction,4.63,9
+ES,2025,J,Information and communication,60.57,1
+ES,2025,M,Professional and scientific,38.35,2
+ES,2025,S951,Repair of computers,35.14,3
+ES,2025,L,Real estate,34.39,4
+ES,2025,N,Administrative and support,18.79,5
+ES,2025,E,Water and waste,17.82,6
+ES,2025,G,Wholesale and retail,17.81,7
+ES,2025,C,Manufacturing,17.14,8
+ES,2025,I,Accommodation and food,15.23,9
+ES,2025,H,Transport and storage,14.69,10
+ES,2025,F,Construction,11.26,11
+EU27_2020,2024,J,Information and communication,48.72,1
+EU27_2020,2024,M,Professional and scientific,30.53,2
+EU27_2020,2024,D,Electricity and gas,25.68,3
+EU27_2020,2024,L,Real estate,15.45,4
+EU27_2020,2024,N,Administrative and support,14.33,5
+EU27_2020,2024,S951,Repair of computers,14.07,6
+EU27_2020,2024,G,Wholesale and retail,12.11,7
+EU27_2020,2024,C,Manufacturing,10.57,8
+EU27_2020,2024,E,Water and waste,8.38,9
+EU27_2020,2024,H,Transport and storage,8.13,10
+EU27_2020,2024,F,Construction,6.09,11
+EU27_2020,2024,I,Accommodation and food,6.09,11
+FI,2021,J,Information and communication,40.64,1
+FI,2021,M,Professional and scientific,29.63,2
+FI,2021,L,Real estate,18.67,3
+FI,2021,N,Administrative and support,17.28,4
+FI,2021,C,Manufacturing,16.25,5
+FI,2021,G,Wholesale and retail,13.32,6
+FI,2021,F,Construction,9.39,7
+FI,2021,H,Transport and storage,5.7,8
+FI,2021,I,Accommodation and food,4.92,9
+IT,2021,D,Electricity and gas,16.23,1
+IT,2021,J,Information and communication,16.19,2
+IT,2021,M,Professional and scientific,8.68,3
+IT,2021,E,Water and waste,6.75,4
+IT,2021,C,Manufacturing,6.63,5
+IT,2021,N,Administrative and support,6.22,6
+IT,2021,G,Wholesale and retail,5.59,7
+IT,2021,F,Construction,5.24,8
+IT,2021,I,Accommodation and food,4.82,9
+IT,2021,L,Real estate,3.19,10
+IT,2021,H,Transport and storage,3.03,11
+LU,2021,J,Information and communication,28.69,1
+LU,2021,M,Professional and scientific,20.8,2
+LU,2021,N,Administrative and support,16.09,3
+LU,2021,C,Manufacturing,13.48,4
+LU,2021,F,Construction,11.28,5
+LU,2021,H,Transport and storage,10.09,6
+LU,2021,G,Wholesale and retail,9.14,7
+LU,2021,I,Accommodation and food,2.35,8
+CZ,2023,J,Information and communication,24.76,1
+CZ,2023,M,Professional and scientific,9.42,2
+CZ,2023,D,Electricity and gas,7.78,3
+CZ,2023,S951,Repair of computers,6.95,4
+CZ,2023,C,Manufacturing,6.01,5
+CZ,2023,N,Administrative and support,5.43,6
+CZ,2023,G,Wholesale and retail,5.16,7
+CZ,2023,L,Real estate,4.92,8
+CZ,2023,H,Transport and storage,4.42,9
+CZ,2023,E,Water and waste,3.98,10
+CZ,2023,I,Accommodation and food,2.63,11
+CZ,2023,F,Construction,1.34,12
+CZ,2025,J,Information and communication,60.49,1
+CZ,2025,M,Professional and scientific,33.31,2
+CZ,2025,S951,Repair of computers,32.83,3
+CZ,2025,G,Wholesale and retail,19.17,4
+CZ,2025,C,Manufacturing,16.73,5
+CZ,2025,L,Real estate,15.86,6
+CZ,2025,N,Administrative and support,13.01,7
+CZ,2025,D,Electricity and gas,12.97,8
+CZ,2025,E,Water and waste,11.56,9
+CZ,2025,I,Accommodation and food,10.14,10
+CZ,2025,F,Construction,7.84,11
+CZ,2025,H,Transport and storage,6.06,12
+HR,2021,J,Information and communication,25.8,1
+HR,2021,M,Professional and scientific,13.25,2
+HR,2021,E,Water and waste,11.22,3
+HR,2021,G,Wholesale and retail,8.51,4
+HR,2021,C,Manufacturing,8.29,5
+HR,2021,H,Transport and storage,7.52,6
+HR,2021,I,Accommodation and food,7.38,7
+HR,2021,N,Administrative and support,5.16,8
+HR,2021,F,Construction,4.85,9
+HR,2021,S951,Repair of computers,0.0,10
+HU,2021,J,Information and communication,13.09,1
+HU,2021,D,Electricity and gas,9.55,2
+HU,2021,N,Administrative and support,4.83,3
+HU,2021,S951,Repair of computers,4.65,4
+HU,2021,C,Manufacturing,4.0,5
+HU,2021,M,Professional and scientific,3.71,6
+HU,2021,E,Water and waste,3.55,7
+HU,2021,H,Transport and storage,3.32,8
+HU,2021,L,Real estate,2.3,9
+HU,2021,G,Wholesale and retail,1.65,10
+HU,2021,I,Accommodation and food,0.66,11
+HU,2021,F,Construction,0.55,12
+PL,2023,J,Information and communication,17.56,1
+PL,2023,S951,Repair of computers,9.33,2
+PL,2023,M,Professional and scientific,9.05,3
+PL,2023,D,Electricity and gas,7.58,4
+PL,2023,N,Administrative and support,4.8,5
+PL,2023,G,Wholesale and retail,3.99,6
+PL,2023,C,Manufacturing,2.86,7
+PL,2023,L,Real estate,2.39,8
+PL,2023,E,Water and waste,2.31,9
+PL,2023,H,Transport and storage,1.84,10
+PL,2023,I,Accommodation and food,1.65,11
+PL,2023,F,Construction,1.23,12
+PL,2025,J,Information and communication,38.09,1
+PL,2025,S951,Repair of computers,24.94,2
+PL,2025,M,Professional and scientific,22.16,3
+PL,2025,D,Electricity and gas,16.17,4
+PL,2025,N,Administrative and support,10.47,5
+PL,2025,G,Wholesale and retail,8.88,6
+PL,2025,C,Manufacturing,7.7,7
+PL,2025,E,Water and waste,5.95,8
+PL,2025,I,Accommodation and food,5.57,9
+PL,2025,L,Real estate,4.09,10
+PL,2025,H,Transport and storage,2.97,11
+PL,2025,F,Construction,2.35,12
+EE,2023,J,Information and communication,20.49,1
+EE,2023,D,Electricity and gas,14.04,2
+EE,2023,M,Professional and scientific,10.75,3
+EE,2023,N,Administrative and support,7.07,4
+EE,2023,H,Transport and storage,5.61,5
+EE,2023,F,Construction,3.63,6
+EE,2023,G,Wholesale and retail,3.47,7
+EE,2023,C,Manufacturing,3.12,8
+EE,2023,L,Real estate,1.66,9
+EE,2023,I,Accommodation and food,1.64,10
+EE,2023,E,Water and waste,0.0,11
+EE,2025,J,Information and communication,56.6,1
+EE,2025,M,Professional and scientific,52.24,2
+EE,2025,D,Electricity and gas,24.65,3
+EE,2025,L,Real estate,23.25,4
+EE,2025,C,Manufacturing,22.66,5
+EE,2025,N,Administrative and support,19.07,6
+EE,2025,G,Wholesale and retail,18.4,7
+EE,2025,F,Construction,17.39,8
+EE,2025,I,Accommodation and food,16.25,9
+EE,2025,H,Transport and storage,13.99,10
+EE,2025,E,Water and waste,10.79,11
+ES,2021,J,Information and communication,26.65,1
+ES,2021,M,Professional and scientific,13.72,2
+ES,2021,L,Real estate,12.87,3
+ES,2021,H,Transport and storage,9.02,4
+ES,2021,N,Administrative and support,7.77,5
+ES,2021,C,Manufacturing,7.42,6
+ES,2021,G,Wholesale and retail,5.99,7
+ES,2021,F,Construction,3.77,8
+ES,2021,I,Accommodation and food,3.57,9
+FI,2023,J,Information and communication,48.19,1
+FI,2023,M,Professional and scientific,31.54,2
+FI,2023,L,Real estate,18.8,3
+FI,2023,N,Administrative and support,14.76,4
+FI,2023,C,Manufacturing,12.98,5
+FI,2023,G,Wholesale and retail,10.79,6
+FI,2023,H,Transport and storage,8.37,7
+FI,2023,F,Construction,5.18,8
+FI,2023,I,Accommodation and food,2.46,9
+FI,2025,J,Information and communication,79.79,1
+FI,2025,M,Professional and scientific,74.75,2
+FI,2025,L,Real estate,50.93,3
+FI,2025,N,Administrative and support,38.65,4
+FI,2025,G,Wholesale and retail,34.26,5
+FI,2025,F,Construction,24.01,6
+FI,2025,I,Accommodation and food,23.53,7
+FI,2025,H,Transport and storage,12.93,8
+IE,2024,J,Information and communication,49.07,1
+IE,2024,D,Electricity and gas,36.67,2
+IE,2024,M,Professional and scientific,27.25,3
+IE,2024,N,Administrative and support,24.8,4
+IE,2024,L,Real estate,18.15,5
+IE,2024,C,Manufacturing,17.51,6
+IE,2024,E,Water and waste,14.86,7
+IE,2024,G,Wholesale and retail,11.71,8
+IE,2024,S951,Repair of computers,10.42,9
+IE,2024,H,Transport and storage,7.87,10
+IE,2024,F,Construction,6.24,11
+IE,2024,I,Accommodation and food,4.71,12
+IT,2023,J,Information and communication,21.04,1
+IT,2023,M,Professional and scientific,9.23,2
+IT,2023,N,Administrative and support,6.73,3
+IT,2023,C,Manufacturing,4.94,4
+IT,2023,I,Accommodation and food,3.99,5
+IT,2023,G,Wholesale and retail,3.66,6
+IT,2023,H,Transport and storage,3.45,7
+IT,2023,L,Real estate,2.73,8
+IT,2023,F,Construction,2.62,9
+IT,2025,J,Information and communication,51.28,1
+IT,2025,M,Professional and scientific,35.72,2
+IT,2025,G,Wholesale and retail,18.13,3
+IT,2025,N,Administrative and support,15.97,4
+IT,2025,C,Manufacturing,14.73,5
+IT,2025,L,Real estate,13.96,6
+IT,2025,I,Accommodation and food,11.73,7
+IT,2025,H,Transport and storage,11.62,8
+IT,2025,F,Construction,10.39,9
+LU,2023,J,Information and communication,31.66,1
+LU,2023,M,Professional and scientific,21.98,2
+LU,2023,C,Manufacturing,16.17,3
+LU,2023,G,Wholesale and retail,14.61,4
+LU,2023,N,Administrative and support,13.39,5
+LU,2023,H,Transport and storage,10.04,6
+LU,2023,F,Construction,10.03,7
+LU,2023,I,Accommodation and food,4.87,8
+LU,2025,J,Information and communication,73.48,1
+LU,2025,M,Professional and scientific,51.65,2
+LU,2025,C,Manufacturing,37.58,3
+LU,2025,N,Administrative and support,31.88,4
+LU,2025,H,Transport and storage,27.9,5
+LU,2025,G,Wholesale and retail,27.24,6
+LU,2025,F,Construction,23.98,7
+LU,2025,I,Accommodation and food,16.95,8
